@@ -1,0 +1,222 @@
+\begin{thebibliography}{10}
+
+\bibitem{ATIHAgenceTechnique}
+{{ATIH}} : {{Agence}} technique de l'information sur l'hospitalisation.
+\newblock https://atih.sante.fr/.
+
+\bibitem{DataAnalysisProcess}
+Data {{Analysis}} - {{Process}}.
+\newblock
+  https://www.tutorialspoint.com/excel\_data\_analysis/data\_analysis\_process.htm.
+
+\bibitem{DataAnalysisVisualization}
+Data {{Analysis}}, {{Visualization}} and {{Interpretation}} | {{MEALD Pro
+  Starter}}.
+\newblock
+  https://mealdprostarter.org/n-data-analysis-visualization-and-interpretation/.
+
+\bibitem{ElectronicHealthRecords}
+Electronic {{Health Records}} | {{CMS}}.
+\newblock https://www.cms.gov/Medicare/E-Health/EHealthRecords.
+
+\bibitem{ElectronicMedicalRecord}
+Electronic {{Medical Record Systems}} | {{Digital Healthcare Research}}.
+\newblock https://digital.ahrq.gov/electronic-medical-record-systems.
+
+\bibitem{HealthDataManagement}
+Health {{Data Management}}: {{Benefits}}, {{Challenges}} and {{Storage}}.
+
+\bibitem{HealthcareDataVolume}
+Healthcare data volume globally 2020 forecast.
+\newblock
+  https://www.statista.com/statistics/1037970/global-healthcare-data-volume/.
+
+\bibitem{KeyMaintainingMedical}
+The {{Key}} to {{Maintaining Medical Records}} | {{Smartsheet}}.
+\newblock https://www.smartsheet.com/medical-records-management.
+
+\bibitem{PaperbasedComputerbasedRecords}
+Paper-based versus computer-based records in the emergency department:
+  {{Staff}} preferences, expectations, and concerns - {{Haleh Ayatollahi}},
+  {{Peter A}}. {{Bath}}, {{Steve Goodacre}}, 2009.
+\newblock https://journals.sagepub.com/doi/10.1177/1460458209337433.
+
+\bibitem{WhatDataFiltering}
+What is {{Data Filtering}}? - {{Displayr}}.
+\newblock https://www.displayr.com/what-is-data-filtering/.
+
+\bibitem{WhatInformationVisualization}
+What is {{Information Visualization}}?
+\newblock
+  https://www.tibco.com/reference-center/what-is-information-visualization.
+
+\bibitem{WhatDataAnalysis}
+What {{Is}} the {{Data Analysis Process}}? 5 {{Key Steps}} to {{Follow}}.
+\newblock https://www.g2.com/articles/data-analysis-process.
+
+\bibitem{WheelWhatAre}
+Wheel | {{What}} are {{Electronic Medical Records}}.
+\newblock
+  https://www.wheel.com/companies-blog/what-are-electronic-medical-records.
+
+\bibitem{alotaibi2017impact}
+Yasser~K Alotaibi and Frank Federico.
+\newblock The impact of health information technology on patient safety.
+\newblock {\em Saudi medical journal}, 38(12):1173, 2017.
+
+\bibitem{alrehielyEvaluatingDifferentVisualization}
+Majedah~Mohammad Alrehiely.
+\newblock Evaluating {{Different Visualization Designs}} for {{Multivariate
+  Personal Health Data}}.
+\newblock page 461.
+
+\bibitem{alsahafiOverviewElectronicPersonal2018}
+Yaser~A Alsahafi and Valerie Gay.
+\newblock An overview of electronic personal health records.
+\newblock {\em Health Policy and Technology}, 7(4):427--432, December 2018.
+
+\bibitem{andreu2015big}
+Javier Andreu-Perez, Carmen~CY Poon, Robert~D Merrifield, Stephen~TC Wong, and
+  Guang-Zhong Yang.
+\newblock Big data for health.
+\newblock {\em IEEE journal of biomedical and health informatics},
+  19(4):1193--1208, 2015.
+
+\bibitem{belsisPervasiveSecureElectronic2005}
+Petros Belsis, Apostolos Malatras, Stefanos Gritzalis, Christos Skourlas, and
+  Ioannis Chalaris.
+\newblock {\em Pervasive {{Secure Electronic Healthcare Records Management}}.}
+\newblock January 2005.
+
+\bibitem{boracle2009detection}
+SAS bOracle France.
+\newblock Detection of adverse drug events: proposal of a data model.
+\newblock {\em Detection and Prevention of Adverse Drug Events: Information
+  Technologies and Human Factors}, 148:63, 2009.
+
+\bibitem{brailer2004decade}
+D~Brailer.
+\newblock The decade of health information technology.
+\newblock {\em HHS Report, July}, 21, 2004.
+
+\bibitem{dash2019big}
+Sabyasachi Dash, Sushil~Kumar Shakyawar, Mohit Sharma, and Sandeep Kaushik.
+\newblock Big data in healthcare: management, analysis and future prospects.
+\newblock {\em Journal of Big Data}, 6(1):1--25, 2019.
+
+\bibitem{demchenko2012addressing}
+Yuri Demchenko, Zhiming Zhao, Paola Grosso, Adianto Wibisono, and Cees De~Laat.
+\newblock Addressing big data challenges for scientific data infrastructure.
+\newblock In {\em 4th IEEE International Conference on Cloud Computing
+  Technology and Science Proceedings}, pages 614--617. IEEE, 2012.
+
+\bibitem{demirisPatientcenteredApplicationsUse2008}
+George Demiris, Lawrence~B. Afrin, Stuart Speedie, Karen~L. Courtney, Manu
+  Sondhi, Vivian Vimarlund, Christian Lovis, William Goossen, and Cecil Lynch.
+\newblock Patient-centered {{Applications}}: {{Use}} of {{Information
+  Technology}} to {{Promote Disease Management}} and {{Wellness}}. {{A White
+  Paper}} by the {{AMIA Knowledge}} in {{Motion Working Group}}.
+\newblock {\em Journal of the American Medical Informatics Association},
+  15(1):8--13, January 2008.
+
+\bibitem{emmanuelchazardReutilisationFouilleDonnees2017}
+{Emmanuel Chazard}.
+\newblock {R\'eutilisation et fouille de donn\'ees massives de sant\'e
+  produites en routine au cours du soin}.
+\newblock page 174, July 2017.
+
+\bibitem{haux2010medical}
+Reinhold Haux.
+\newblock Medical informatics: past, present, future.
+\newblock {\em International journal of medical informatics}, 79(9):599--610,
+  2010.
+
+\bibitem{liuSurveyInformationVisualization2014}
+Shixia Liu, Weiwei Cui, Yingcai Wu, and Mengchen Liu.
+\newblock A survey on information visualization: Recent advances and
+  challenges.
+\newblock {\em The Visual Computer}, 30(12):1373--1393, December 2014.
+
+\bibitem{martigneneVisualisationUnifieeDonnees}
+Par~Niels Martignene.
+\newblock {visualisation unifi\'ee de donn\'ees cliniques temporelles,
+  h\'et\'erog\`enes, hi\'erarchiques}.
+\newblock page~66.
+
+\bibitem{masic2013history}
+Izet Masic.
+\newblock The history and new trends of medical informatics.
+\newblock {\em Donald School J Ultrasound Obstet Gynecol}, 7(3):301--302, 2013.
+
+\bibitem{morelandSurveyVisualizationPipelines2013}
+Kenneth Moreland.
+\newblock A {{Survey}} of {{Visualization Pipelines}}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  19(3):367--378, March 2013.
+
+\bibitem{nasiri2019security}
+Somayeh Nasiri, Farahnaz Sadoughi, Mohammad~Hesam Tadayon, and Afsaneh Dehnad.
+\newblock Security requirements of internet of things-based healthcare system:
+  a survey study.
+\newblock {\em Acta Informatica Medica}, 27(4):253, 2019.
+
+\bibitem{ngoepeSecurityPrivacyEthics2011}
+Mpho Ngoepe, Lebohang Mokoena, and Patrick Ngulube.
+\newblock Security, privacy and ethics in electronic records management in the
+  {{South African}} public sector.
+\newblock {\em ESARBICA Journal: Journal of the Eastern and Southern Africa
+  Regional Branch of the International Council on Archives}, 29, March 2011.
+
+\bibitem{ruotsalainenCrossplatformModelSecure2004}
+Pekka Ruotsalainen.
+\newblock A cross-platform model for secure {{Electronic Health Record}}
+  communication.
+\newblock {\em International journal of medical informatics}, 73:291--5, April
+  2004.
+
+\bibitem{spence2001information}
+Robert Spence.
+\newblock {\em Information visualization}, volume~1.
+\newblock Springer, 2001.
+
+\bibitem{tangPersonalHealthRecords2006}
+Paul~C. Tang, Joan~S. Ash, David~W. Bates, J.~Marc Overhage, and Daniel~Z.
+  Sands.
+\newblock Personal {{Health Records}}: {{Definitions}}, {{Benefits}}, and
+  {{Strategies}} for {{Overcoming Barriers}} to {{Adoption}}.
+\newblock {\em Journal of the American Medical Informatics Association},
+  13(2):121--126, March 2006.
+
+\bibitem{teleaDataVisualizationPrinciples2008}
+Alexandru Telea.
+\newblock {\em Data {{Visualization}}: {{Principles}} and {{Practice}}}.
+\newblock January 2008.
+
+\bibitem{williamsVisualization1995}
+James~G. Williams and And Others.
+\newblock Visualization.
+\newblock {\em Annual Review of Information Science and Technology (ARIST)},
+  30:161--207, 1995.
+
+\bibitem{wong2009developing}
+REX Wong and Elizabeth~H Bradley.
+\newblock Developing patient registration and medical records management system
+  in ethiopia.
+\newblock {\em International journal for quality in health care},
+  21(4):253--258, 2009.
+
+\bibitem{xu2020privacy}
+Jian Xu, Laiwen Wei, Wei Wu, Andi Wang, Yu~Zhang, and Fucai Zhou.
+\newblock Privacy-preserving data integrity verification by using lightweight
+  streaming authenticated data structures for healthcare cyber--physical
+  system.
+\newblock {\em Future Generation Computer Systems}, 108:1287--1296, 2020.
+
+\bibitem{Zillner2016}
+Sonja Zillner, Tilman Becker, Ricard Munn{\'e}, Kazim Hussain, Sebnem
+  Rusitschka, Helen Lippell, Edward Curry, and Adegboyega Ojo.
+\newblock {\em Big Data-Driven Innovation in Industrial Sectors}, pages
+  169--178.
+\newblock Springer International Publishing, Cham, 2016.
+
+\end{thebibliography}

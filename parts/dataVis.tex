@@ -1,0 +1,95 @@
+\chapter{information visualization (infoVis)}
+
+Human mind is very visual, following Williams et al., visualization is “a cognitive process performed by humans in forming a mental image of a domain space. In computer and information science it is, more specifically, the visual representation of a domain space using graphics, images, animated sequences, and sound augmentation to present the data, structure, and dynamic behavior of large, complex data sets that represent systems, events, processes, objects, and concepts”\cite{williamsVisualization1995}. The (Figure \ref{fig:roseDiagrame}) below presents the Florence Nightingale's 'Rose diagram' published in 1858 showing the reduction in the number of deaths in military hospitals in Scutari arising from the changes she instituted\cite{spence2001information} .
+
+\begin{figure}[h!]
+    \center
+    \includegraphics[width=0.78\textwidth]{images/chapter2/rose.jpg}
+    \caption{Rose Diagrame}
+    \label{fig:roseDiagrame}
+  \end{figure}
+
+ \newpage 
+  Data visualization involves presenting data in graphical or pictorial form which makes the information easy to understand. It helps to explain facts and determine courses of action. It will benefit any field of study that requires innovative ways of presenting large, complex information\cite{spence2001information}.
+
+
+
+  Traditionally, data visualization has been structured along two main fields: scientific visualization and information visualization. A third, newer field, called visual analytics has emerged in the past several years, as a bridge between and also an extension of the former two fields\cite{teleaDataVisualizationPrinciples2008}. In this paper we will focus mainly on the information visualization field.
+
+\section{Difinition}
+Information visualization (InfoVis) is the practice of representing data in a meaningful, visual way that users can interpret and easily comprehend, it is a research area that aims to aid users in exploring, understanding, and analyzing data through progressive, iterative visual exploration. With the boom in big data analytics, InfoVis is being widely used in a variety of data analysis applications in different domains, ranging from finance to sports to politics\cite{liuSurveyInformationVisualization2014}.
+\bigbreak
+Information visualizations are often created with an audience in mind and designed to display certain important information that they need to understand. With an idea of how the visualization will be used, using multiple tools (Column chart, Bar graph, Network graph, Stacked bar graph, Histogram, Line chart, Pie chart, Box plot, Bubble chart,  Dual-axis chart,…)\ref{fig:infoViseType} that can help users compare different values, show the bigger picture, track trends in the data, and understand different relationships between variables\cite{WhatInformationVisualization}. These tools follow the model of the visualization pipeline. 
+
+\begin{figure}[h!]
+  \center
+  \includegraphics[width=0.60\textwidth]{images/chapter2/types-of-data-visualization.jpg}
+  \caption{Information visualizations's tools}
+  \label{fig:infoViseType}
+\end{figure}
+
+\section{Visualization pipeline}
+
+A visualization pipeline embodies a dataflow network in which computation is described as a collection of executable modules that are connected in a directed graph representing how data moves between modules. In a \underline{basic} pipeline (Figure \ref{fig:simplepipeline}), there are three types of modules: sources, filters, and sinks. A source module produces data that it makes available through an output. File readers and synthetic data generators are typical source modules. A sink module accepts data through an input and performs an operation with no further result (as far as the pipeline is concerned). Typical sinks are file writers and rendering modules that provide images to a user interface. A filter module has at least one input from which it transforms data and provides results through at least one output\cite{morelandSurveyVisualizationPipelines2013}.
+
+\begin{figure}[h!]
+  \center
+  \includegraphics[width=0.20\textwidth]{images/chapter2/simplepipline.PNG}
+  \caption{A simple visualization pipeline.}
+  \label{fig:simplepipeline}
+\end{figure}
+
+\bigbreak
+As science progresses, this model has been detailed, Figure \ref{fig:infovispipeline} provides an overview of the infoVis pipeline. It has five main modules: Data Analysis, Filtering, Mapping, Rendering, Image data, explained as follows:
+
+
+\begin{figure}[h!]
+  \center
+  \includegraphics[width=0.75\textwidth]{images/chapter2/infoVispipeline.PNG}
+  \caption{A simple visualization pipeline.}
+  \label{fig:infovispipeline}
+\end{figure}
+
+
+ 
+\begin{enumerate}
+  \item \textbf{\textit{Raw data:}} First, we have to import the data. This implies finding a representation of the original information we want to investigate in terms of a data set. Practically, importing data means choosing a specific dataset implementation and converting the original information to the representation implied by the chosen dataset in order to turn this data into information using Data analysis.
+  \item \textbf{\textit{Data Analysis:}} Is the process of bringing order and structure to collected data. It turns data into information teams can use. Analysis is done using systematic methods to look for trends, groupings, or other relationships between different types of data\cite{DataAnalysisVisualization}, following this process:
+  \begin{itemize}
+  \item \textbf{\textit{Data Requirements Specification:}} The data required for analysis is based on a question or an experiment. Based on the requirements of those directing the analysis, the data necessary as inputs to the analysis is identified (e.g., Population of people). Specific variables regarding a population (e.g., Age and Income) may be specified and obtained. Data may be numerical or categorical\cite{DataAnalysisProcess}.
+  \item \textbf{\textit{Data Collection:}} Guided by the requirements identified, Data can be collected through several sources, including online sources, computers, personnel, and sources from the community.
+  \item \textbf{\textit{Data processing:}} The data that is collected must be processed or organized for analysis. For instance, these may involve placing data into rows and columns in a table format (known as structured data) for further analysis, often through the use of spreadsheet or statistical software\cite{DataAnalysisProcess}.
+  \item \textbf{\textit{Data Cleaning:}} The processed and organized data may be incomplete, contain duplicates, or contain errors. Data Cleaning is the process of preventing and correcting these errors\cite{DataAnalysisProcess}.
+  \item \textbf{\textit{Perform data analysis:}}  One of the last steps in the data analysis process is analyzing and manipulating the data. This can be done in a variety of ways depending on the cleaned data nature\cite{WhatDataAnalysis}.
+  \end{itemize}
+  The data analysis step produces the \underline{prepared data}.
+  \item \textbf{\textit{Filtering:}} Data filtering is the process of choosing a smaller part of your data set and using that subset for viewing or analysis\cite{WhatDataFiltering}, this portion of data called \underline{focus data}. 
+  \item \textbf{\textit{Mapping:}} Focus data are mapped to geometric primitives (e.g., points, lines) and their attributes (e.g., color, position, size); most critical step for achieving expressiveness and effectiveness.
+  \item \textbf{\textit{Rendering:}} The rendering operation is the final step of the visualization process, rendering takes the geometric data created by the mapping operation and transforms it to an image data.
+  \end{enumerate}
+  
+
+
+
+
+
+
+
+\section{TODO}
+transition to the pipeline i will use.
+re orgnizing l'enchainement d'idees + titles.
+\section{Literature \& related works review}
+talk about some related work.
+
+\chapter{Technical background}
+** i will talk about all the tech i used here 
+\section{backend side}
+different techs i used in the backend side (while manipulationg data and such)
+\section{visualization side}
+different techs i used in the visualization side (ploting and disign part)
+
+\chapter{Implementation}
+\section{Tools}
+\section{Result}
+
+\chapter{Conclusion and prespectives}
