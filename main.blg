@@ -16,8 +16,10 @@ Warning--to sort, need author or key in PaperbasedComputerbasedRecords
 Warning--to sort, need author or key in WhatInformationVisualization
 Warning--to sort, need author or key in DataAnalysisVisualization
 Warning--to sort, need author or key in DataAnalysisProcess
+Warning--to sort, need author or key in DataAnalysis2022
 Warning--to sort, need author or key in WhatDataAnalysis
 Warning--to sort, need author or key in WhatDataFiltering
+Warning--empty author in DataAnalysis2022
 Warning--empty journal in alrehielyEvaluatingDifferentVisualization
 Warning--empty year in alrehielyEvaluatingDifferentVisualization
 Warning--empty publisher in belsisPervasiveSecureElectronic2005
@@ -26,45 +28,45 @@ Warning--empty journal in martigneneVisualisationUnifieeDonnees
 Warning--empty year in martigneneVisualisationUnifieeDonnees
 Warning--empty publisher in teleaDataVisualizationPrinciples2008
 Warning--can't use both author and editor fields in Zillner2016
-You've used 39 entries,
+You've used 43 entries,
             2118 wiz_defined-function locations,
-            730 strings with 12153 characters,
-and the built_in function-call counts, 11118 in all, are:
-= -- 1068
-> -- 465
+            754 strings with 12902 characters,
+and the built_in function-call counts, 12317 in all, are:
+= -- 1188
+> -- 520
 < -- 6
-+ -- 201
-- -- 154
-* -- 755
-:= -- 1738
-add.period$ -- 104
-call.type$ -- 39
-change.case$ -- 190
++ -- 224
+- -- 172
+* -- 855
+:= -- 1936
+add.period$ -- 115
+call.type$ -- 43
+change.case$ -- 211
 chr.to.int$ -- 0
-cite$ -- 60
-duplicate$ -- 422
-empty$ -- 968
-format.name$ -- 154
-if$ -- 2361
+cite$ -- 66
+duplicate$ -- 465
+empty$ -- 1060
+format.name$ -- 172
+if$ -- 2602
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 30
-newline$ -- 184
-num.names$ -- 52
-pop$ -- 257
+int.to.str$ -- 43
+missing$ -- 34
+newline$ -- 203
+num.names$ -- 58
+pop$ -- 273
 preamble$ -- 1
-purify$ -- 155
+purify$ -- 172
 quote$ -- 0
-skip$ -- 333
+skip$ -- 362
 stack$ -- 0
-substring$ -- 629
-swap$ -- 77
+substring$ -- 704
+swap$ -- 81
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
-warning$ -- 21
-while$ -- 90
-width$ -- 41
-write$ -- 370
-(There were 21 warnings)
+type$ -- 164
+warning$ -- 23
+while$ -- 102
+width$ -- 45
+write$ -- 411
+(There were 23 warnings)

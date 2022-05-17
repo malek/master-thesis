@@ -14,12 +14,11 @@
 \contentsline {chapter}{\numberline {3}information visualization (infoVis)}{14}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Difinition}{15}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Visualization pipeline}{16}{section.3.2}%
-\contentsline {section}{\numberline {3.3}TODO}{18}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Literature \& related works review}{18}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Technical background}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}backend side}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}visualization side}{19}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Implementation}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Tools}{20}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Result}{20}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion and prespectives}{21}{chapter.6}%
+\contentsline {section}{\numberline {3.3}InfoVis and medical data -Literature \& Related works review-}{18}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Technical background / Background review}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}backend side}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}visualization side}{22}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Implementation}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Tools}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Result}{23}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusion and prespectives}{24}{chapter.6}%

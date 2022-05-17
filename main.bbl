@@ -59,6 +59,16 @@ Wheel | {{What}} are {{Electronic Medical Records}}.
 \newblock
   https://www.wheel.com/companies-blog/what-are-electronic-medical-records.
 
+\bibitem{DataAnalysis2022}
+Data analysis.
+\newblock {\em Wikipedia}, May 2022.
+
+\bibitem{abd2019proposed}
+Noura~Mahmoud Abd~Elazeem, Nevine~Makram Labib, and Aliaa~Kamal Abdella.
+\newblock A proposed data warehouse framework to enhance decisions of
+  distribution system in pharmaceutical sector.
+\newblock {\em Egyptian Computer Science Journal}, 43(2):43--60, 2019.
+
 \bibitem{alotaibi2017impact}
 Yasser~K Alotaibi and Frank Federico.
 \newblock The impact of health information technology on patient safety.
@@ -173,6 +183,18 @@ Pekka Ruotsalainen.
   communication.
 \newblock {\em International journal of medical informatics}, 73:291--5, April
   2004.
+
+\bibitem{sebaa2018medical}
+Abderrazak Sebaa, Fatima Chikh, Amina Nouicer, and AbdelKamel Tari.
+\newblock Medical big data warehouse: Architecture and system design, a case
+  study: Improving healthcare resources distribution.
+\newblock {\em Journal of medical systems}, 42(4):1--16, 2018.
+
+\bibitem{shetaBuildingHealthCare2012}
+Osama El-Sayed Sheta and Ahmed~Nour Eldeen.
+\newblock Building a health care data warehouse for cancer diseases.
+\newblock {\em International Journal of Database Management Systems},
+  4(5):39--46, October 2012.
 
 \bibitem{spence2001information}
 Robert Spence.
