@@ -141,6 +141,17 @@ Reinhold Haux.
 \newblock {\em International journal of medical informatics}, 79(9):599--610,
   2010.
 
+\bibitem{inmonBuildingDataWarehouse2005}
+William~H. Inmon.
+\newblock {\em Building the Data Warehouse}.
+\newblock {Wiley}, {Indianapolis, Ind}, 4th ed edition, 2005.
+
+\bibitem{kimballDataWarehouseETLToolkit2011}
+Ralph Kimball and Joe Caserta.
+\newblock {\em The {{Data WarehouseETL Toolkit}}: {{Practical Techniques}} for
+  {{Extracting}}, {{Cleaning}}, {{Conforming}}, and {{Delivering Data}}.}
+\newblock {John Wiley \& Sons, Inc.}, {Hoboken}, 2011.
+
 \bibitem{liuSurveyInformationVisualization2014}
 Shixia Liu, Weiwei Cui, Yingcai Wu, and Mengchen Liu.
 \newblock A survey on information visualization: Recent advances and
@@ -213,6 +224,12 @@ Paul~C. Tang, Joan~S. Ash, David~W. Bates, J.~Marc Overhage, and Daniel~Z.
 Alexandru Telea.
 \newblock {\em Data {{Visualization}}: {{Principles}} and {{Practice}}}.
 \newblock January 2008.
+
+\bibitem{wahDevelopmentDataWarehouse2009}
+Teh Wah and Ong Sim.
+\newblock Development of a data warehouse for {{Lymphoma}} cancer diagnosis and
+  treatment decision support.
+\newblock 6, March 2009.
 
 \bibitem{williamsVisualization1995}
 James~G. Williams and And Others.

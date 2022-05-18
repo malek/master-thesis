@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper]{report}
 \usepackage[utf8]{inputenc}
-
+\usepackage{fourier} %for the font
 \usepackage[english]{babel} %To use the csquotes package without warnings
 \usepackage[autostyle]{csquotes} %for the quotes -> \enquote{the quote}
 
@@ -23,7 +23,8 @@
 
 
 \tableofcontents
-
+\listoffigures
+\listoftables 
 \input{parts/introduction.tex}
 \input{parts/health_and_data.tex}
 \input{parts/dataVis.tex}

@@ -29,7 +29,7 @@ Information visualizations are often created with an audience in mind and design
 \end{figure}
 
 \section{Visualization pipeline}
-
+\label{sec:visualization_pipeline}
 A visualization pipeline embodies a dataflow network in which computation is described as a collection of executable modules that are connected in a directed graph representing how data moves between modules. In a \underline{basic} pipeline (Figure \ref{fig:simplepipeline}), there are three types of modules: sources, filters, and sinks. A source module produces data that it makes available through an output. File readers and synthetic data generators are typical source modules. A sink module accepts data through an input and performs an operation with no further result (as far as the pipeline is concerned). Typical sinks are file writers and rendering modules that provide images to a user interface. A filter module has at least one input from which it transforms data and provides results through at least one output\cite{morelandSurveyVisualizationPipelines2013}.
 
 \begin{figure}[h!]
@@ -80,20 +80,20 @@ As science progresses, this model has been detailed, Figure \ref{fig:infovispipe
 \section{InfoVis and medical data -Literature \& Related works review-}
 We present in this section architecture for healthcare data warehouses and solutions that attempt to integrate infoVis into medical data and medical structures which could be used by executive managers, doctors, physicians and other health professionals to support the healthcare process.  Medical data existing today in multiple sources with different formats makes it necessary to have certain data integration techniques. A healthcare data warehouse is therefore needed to integrate the different data sources into a central data repository and analyze this data.
 \begin{itemize}
-  \item \textbf{\textit{A Healthcare Data Warehouse for Cancer Diseases:}} Dr.Osama E.Sheta and Ahmed Nour Eldeen discussed in their paper\cite{shetaBuildingHealthCare2012} the implementation of a healthcare data warehouse for cancer diseases, they proposed  2 stages approach for the building cancer data warehouse: 
+  \item \textbf{\textit{A Healthcare Data Warehouse for Cancer Diseases:}} Dr.Osama E.Sheta and Ahmed Nour Eldeen discussed in their paper\cite{shetaBuildingHealthCare2012} the implementation of a healthcare data warehouse for cancer diseases, they proposed  two stages approach for the building cancer data warehouse: 
   \begin{enumerate}
     \item \textit{Business Analysis:} Consist of business process analysis and business requirement analysis (Figure\ref{fig:cancerDiagrame}).
     \begin{figure}[h!]
       \center
       \includegraphics[width=0.75\textwidth]{images/chapter2/cancerDiagrame.PNG}
-      \caption{Cancer data warehouse use case diagram .}
+      \caption{Cancer data warehouse use case diagram.}
       \label{fig:cancerDiagrame}
     \end{figure}
     \newpage
     \item \textit{Architecture Design:} Data is imported from several sources and transformed within a staging area before it is integrated and stored in the production data warehouse for further analysis (Figure\ref{fig:cancersystem}).
      \begin{figure}[h!]
       \center
-      \includegraphics[width=0.75\textwidth]{images/chapter2/cancersystem.PNG}
+      \includegraphics[width=0.65\textwidth]{images/chapter2/cancersystem.PNG}
       \caption{Cancer data warehouse Architecture Taken from the source.}
       \label{fig:cancersystem}
     \end{figure}
@@ -102,7 +102,7 @@ We present in this section architecture for healthcare data warehouses and solut
     \item \textbf{\textit{Data Warehouse Framework in Pharmaceutical Sector:}} In this paper\cite{abd2019proposed} authors proposed a data warehouse framework to enhance decisions of distribution systems in pharmaceutical companies to decrease the medicine industry cost and increase productivity. The framework can be described in four phases shown in (Figure \ref{fig:pharmacysystem}). Phase one consists of a data preparation phase which has four steps (data collection, building DBs, DWH and data cleaning). Phase two consists of training phase which is applying time series to three types of Neural Networks techniques (levenberg marquardt, Bayesian regularized, and Scaled conjugate gradient).Phase three is testing the performance based on mean square error (MSE). Phase four consists of evaluating the performance of the best prediction model.
     \begin{figure}[h!]
       \center
-      \includegraphics[width=0.75\textwidth]{images/chapter2/pharmacysystem.PNG}
+      \includegraphics[width=0.50\textwidth]{images/chapter2/pharmacysystem.PNG}
       \caption{The Proposed Framework of Sales Prediction.}
       \label{fig:pharmacysystem}
     \end{figure}
@@ -112,7 +112,7 @@ We present in this section architecture for healthcare data warehouses and solut
     The overall architecture is depicted in (Figure \ref{fig:bigdatarelated}). It is a scalable, reliable, and distributed architecture to extract, store, analyze, and visualize healthcare data extracted from various resources HIS (Hospitals Information systems).
     \begin{figure}[h!]
       \center
-      \includegraphics[width=0.75\textwidth]{images/chapter2/relatedworkHadoop.PNG}
+      \includegraphics[width=0.50\textwidth]{images/chapter2/relatedworkHadoop.PNG}
       \caption{Hadoop-based system
       architecture of medical big data warehousing.}
       \label{fig:bigdatarelated}
@@ -120,5 +120,24 @@ We present in this section architecture for healthcare data warehouses and solut
 \end{itemize}
 
 
+\section{System design}
+In this section we propose our data warehouse and visualization system for medical data that aims to manage the uncommon data from the various sources using a conventional common language between the different health actors.
+\subsection{The Data Warehouse Architecture}
+The concept of "data warehousing" arose in the mid 1980s with the intention to support huge information analysis and management reporting\cite{wahDevelopmentDataWarehouse2009}. Data warehouse was defined According to Bill Inmon a “subject-oriented, integrated, time variant and non-volatile collection of data in support of management’s decision making process”\cite{inmonBuildingDataWarehouse2005}.
+ 
+ 
+According to Ralph Kimball "a data warehouse is a system that extracts, cleans, conforms, and delivers source data into a dimensional data store and then supports and implements querying and analysis for the purpose of decision making"\cite{kimballDataWarehouseETLToolkit2011}.
 
+There are three major areas in the data warehouse architecture as following:
+\begin{itemize}
+  \item \textbf{\textit{Data Acquisition:}} This step covers the process of extracting data from the multi sources, moving all extracted data to the stage and preparing the data for loading into the repository. The two main architectural components of this area are the source data and the data store, which is where all the extracted data is gathered and prepared for loading into the data warehouse.
+  
+  Following the medical data that are mentioned in the Table\ref{tab:sourceTable}, we chose to work on  the 3 different data related to different medical actors:
+  
+  \underline{Administrative} data, data relating to \underline{medical procedures} and data relating to \underline{the drugs administered to the patient} that are explained in chapter\ref{chap:healthData}.
+  \item \textbf{\textit{Data processing and storage:}} This stage covers all manipulations and analysis that take place on our data from data cleaning to data processing to filtering till the rendering step (the steps mentioned in section\ref{sec:visualization_pipeline}).
+  At this stage, the data goes through a series of transformations to extract the focus data into clear and clean formats to build a sort of common language.
+
+  \item \textbf{\textit{Information visualization:}} This step focuses mainly on the visualization part, it makes it easy for the users to access the information directly from the data warehouse.
+\end{itemize}
 
