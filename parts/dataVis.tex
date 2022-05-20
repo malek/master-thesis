@@ -1,4 +1,4 @@
-\chapter{information visualization (infoVis)}
+\chapter{Information Visualization (infoVis)}
 
 Human mind is very visual, following Williams et al., visualization is “a cognitive process performed by humans in forming a mental image of a domain space. In computer and information science it is, more specifically, the visual representation of a domain space using graphics, images, animated sequences, and sound augmentation to present the data, structure, and dynamic behavior of large, complex data sets that represent systems, events, processes, objects, and concepts”\cite{williamsVisualization1995}. The (Figure \ref{fig:roseDiagrame}) below presents the Florence Nightingale's 'Rose diagram' published in 1858 showing the reduction in the number of deaths in military hospitals in Scutari arising from the changes she instituted\cite{spence2001information} .
 
@@ -6,7 +6,7 @@ Human mind is very visual, following Williams et al., visualization is “a cogn
     \center
     \includegraphics[width=0.78\textwidth]{images/chapter2/rose.jpg}
     \caption{Rose Diagrame}
-    \label{fig:roseDiagrame}
+    \label{fig:roseDiagram}
   \end{figure}
 
  \newpage 
@@ -16,7 +16,7 @@ Human mind is very visual, following Williams et al., visualization is “a cogn
 
   Traditionally, data visualization has been structured along two main fields: scientific visualization and information visualization. A third, newer field, called visual analytics has emerged in the past several years, as a bridge between and also an extension of the former two fields\cite{teleaDataVisualizationPrinciples2008}. In this paper we will focus mainly on the information visualization field.
 
-\section{Difinition}
+\section{Definition}
 Information visualization (InfoVis) is the practice of representing data in a meaningful, visual way that users can interpret and easily comprehend, it is a research area that aims to aid users in exploring, understanding, and analyzing data through progressive, iterative visual exploration. With the boom in big data analytics, InfoVis is being widely used in a variety of data analysis applications in different domains, ranging from finance to sports to politics\cite{liuSurveyInformationVisualization2014}.
 \bigbreak
 Information visualizations are often created with an audience in mind and designed to display certain important information that they need to understand. With an idea of how the visualization will be used, using multiple tools (Column chart, Bar graph, Network graph, Stacked bar graph, Histogram, Line chart, Pie chart, Box plot, Bubble chart,  Dual-axis chart,…)\ref{fig:infoViseType} that can help users compare different values, show the bigger picture, track trends in the data, and understand different relationships between variables\cite{WhatInformationVisualization}. These tools follow the model of the visualization pipeline. 
@@ -24,7 +24,7 @@ Information visualizations are often created with an audience in mind and design
 \begin{figure}[h!]
   \center
   \includegraphics[width=0.60\textwidth]{images/chapter2/types-of-data-visualization.jpg}
-  \caption{Information visualizations's tools}
+  \caption{Information visualization tools}
   \label{fig:infoViseType}
 \end{figure}
 
@@ -135,9 +135,30 @@ There are three major areas in the data warehouse architecture as following:
   Following the medical data that are mentioned in the Table\ref{tab:sourceTable}, we chose to work on  the 3 different data related to different medical actors:
   
   \underline{Administrative} data, data relating to \underline{medical procedures} and data relating to \underline{the drugs administered to the patient} that are explained in chapter\ref{chap:healthData}.
-  \item \textbf{\textit{Data processing and storage:}} This stage covers all manipulations and analysis that take place on our data from data cleaning to data processing to filtering till the rendering step (the steps mentioned in section\ref{sec:visualization_pipeline}).
+  \item \textbf{\textit{Data processing and storage:}} This stage covers all preparations and analysis that take place on our data from data cleaning to data processing to filtering till the rendering step (the steps mentioned in section\ref{sec:visualization_pipeline}).
   At this stage, the data goes through a series of transformations to extract the focus data into clear and clean formats to build a sort of common language.
 
   \item \textbf{\textit{Information visualization:}} This step focuses mainly on the visualization part, it makes it easy for the users to access the information directly from the data warehouse.
 \end{itemize}
 
+\subsection{Diagrams \& Architecture}
+\section{Data Integration Approaches} 
+Data integration is the most tedious and time-consuming step in setting up a decision-making information system. During this step, the data is transformed and filtered to represent a homogeneous, common and stable source of information. The performance of the SID is closely linked to the quality of data integration. It should be noted that the data integration step is not limited to the decision-making domain. It is more general and can be applied for different needs: bringing together and requesting several operational information systems, communicating applications that have been made in silos (independently of each other), etc.
+ 
+Several approaches have been developed depending on the integration needs. We present in this section the most used approaches\cite{naitEntropot}.
+\subsection{Extract Transform and Load (ETL)}
+This is the most used approach in setting up a data warehouse. In this approach, the integration is done in three steps:
+\begin{itemize}
+\item Extracting data from sources.
+\item Data transformation, which consists of cleaning and aggregating data to integrate them into a predefined schema.
+\item Loading data into the target (the data warehouse).
+\end{itemize}
+ 
+\subsection{Enterprise Information Integration(EII)}
+In the EII approach, no physical integration is performed. Heterogeneous data sources are consolidated using a virtual database, transparent to applications using the data. The virtual database provides a unified view of data. Users send their request directly to the database. The query is then broken down into sub-queries that will be sent to the respective sources. The answers are assembled into a final result.
+ 
+\subsection{Enterprise Application Integration(EAI)}
+In order to connect applications built in different environments and with different technologies, the EAI approach is based on application integration and sharing of their data using web services (SOA architecture). This approach allows for real-time communication.
+It is also used to feed data warehouses. This approach does not replace ETL.
+
+\input{Tables/chapter2/Integration_Approaches_comparaison.tex}

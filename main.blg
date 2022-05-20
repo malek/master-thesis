@@ -22,6 +22,7 @@ Warning--to sort, need author or key in WhatDataFiltering
 Warning--empty author in DataAnalysis2022
 Warning--empty journal in alrehielyEvaluatingDifferentVisualization
 Warning--empty year in alrehielyEvaluatingDifferentVisualization
+Warning--empty journal in naitEntropot
 Warning--empty publisher in belsisPervasiveSecureElectronic2005
 Warning--empty booktitle in emmanuelchazardReutilisationFouilleDonnees2017
 Warning--empty journal in martigneneVisualisationUnifieeDonnees
@@ -29,45 +30,45 @@ Warning--empty year in martigneneVisualisationUnifieeDonnees
 Warning--empty publisher in teleaDataVisualizationPrinciples2008
 Warning--empty journal in wahDevelopmentDataWarehouse2009
 Warning--can't use both author and editor fields in Zillner2016
-You've used 46 entries,
+You've used 47 entries,
             2118 wiz_defined-function locations,
-            771 strings with 13485 characters,
-and the built_in function-call counts, 13046 in all, are:
-= -- 1256
-> -- 553
-< -- 6
-+ -- 238
-- -- 182
-* -- 894
-:= -- 2066
-add.period$ -- 124
-call.type$ -- 46
-change.case$ -- 224
+            777 strings with 13623 characters,
+and the built_in function-call counts, 13366 in all, are:
+= -- 1290
+> -- 560
+< -- 7
++ -- 241
+- -- 184
+* -- 910
+:= -- 2115
+add.period$ -- 127
+call.type$ -- 47
+change.case$ -- 228
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 499
-empty$ -- 1121
-format.name$ -- 182
-if$ -- 2753
+cite$ -- 72
+duplicate$ -- 515
+empty$ -- 1148
+format.name$ -- 184
+if$ -- 2824
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 39
-newline$ -- 218
-num.names$ -- 64
-pop$ -- 292
+int.to.str$ -- 47
+missing$ -- 40
+newline$ -- 223
+num.names$ -- 66
+pop$ -- 298
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 186
 quote$ -- 0
-skip$ -- 384
+skip$ -- 397
 stack$ -- 0
-substring$ -- 720
-swap$ -- 83
-text.length$ -- 6
+substring$ -- 744
+swap$ -- 88
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 172
-warning$ -- 24
-while$ -- 108
-width$ -- 48
-write$ -- 444
-(There were 24 warnings)
+type$ -- 176
+warning$ -- 25
+while$ -- 113
+width$ -- 49
+write$ -- 454
+(There were 25 warnings)
