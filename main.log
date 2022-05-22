@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.20)  20 MAY 2022 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.20)  21 MAY 2022 20:10
 entering extended mode
 **d:/Workspace/thesisM2/main.tex
 (d:/Workspace/thesisM2/main.tex
@@ -476,7 +476,7 @@ Chapter 1.
 [4
 
 ]
-<images/intro/sista.PNG, id=211, 537.50812pt x 336.50719pt>
+<images/intro/sista.PNG, id=202, 537.50812pt x 336.50719pt>
 File: images/intro/sista.PNG Graphic file (type png)
 <use images/intro/sista.PNG>
 Package pdftex.def Info: images/intro/sista.PNG  used on input line 17.
@@ -486,7 +486,7 @@ LaTeX Font Info:    Trying to load font information for TS1+futs on input line 2
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 ) [5 <./images/intro/sista.PNG>]) (parts/health_and_data.tex [6]
 Chapter 2.
-<images/chapter1/publication_big_data.PNG, id=230, 443.256pt x 261.97874pt>
+<images/chapter1/publication_big_data.PNG, id=221, 443.256pt x 261.97874pt>
 File: images/chapter1/publication_big_data.PNG Graphic file (type png)
 <use images/chapter1/publication_big_data.PNG>
 Package pdftex.def Info: images/chapter1/publication_big_data.PNG  used on input line 25.
@@ -497,7 +497,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [7
 
 ]
-<images/chapter1/health_publication_bigData.PNG, id=245, 431.81325pt x 296.90926pt>
+<images/chapter1/health_publication_bigData.PNG, id=236, 431.81325pt x 296.90926pt>
 File: images/chapter1/health_publication_bigData.PNG Graphic file (type png)
 <use images/chapter1/health_publication_bigData.PNG>
 Package pdftex.def Info: images/chapter1/health_publication_bigData.PNG  used on input line 36.
@@ -571,7 +571,7 @@ Overfull \hbox (16.0195pt too wide) in paragraph at lines 110--111
 \T1/futs/m/n/12 and stor-ing life-long per-sonal health in-for-ma-tion for var-i-ous pur-poses from chronic
  []
 
-<images/chapter1/phr_ehr.PNG, id=305, 729.927pt x 413.1435pt>
+<images/chapter1/phr_ehr.PNG, id=296, 729.927pt x 413.1435pt>
 File: images/chapter1/phr_ehr.PNG Graphic file (type png)
 <use images/chapter1/phr_ehr.PNG>
 Package pdftex.def Info: images/chapter1/phr_ehr.PNG  used on input line 115.
@@ -582,14 +582,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [13]) (parts/dataVis.tex [14 <./images/chapter1/phr_ehr.PNG>] [15]
 Chapter 3.
 
-LaTeX Warning: Reference `fig:roseDiagrame' on page 16 undefined on input line 3.
-
-
 Overfull \hbox (4.11545pt too wide) in paragraph at lines 3--4
 \T1/futs/m/n/12 deaths in mil-i-tary hos-pi-tals in Scu-tari aris-ing from the changes she instituted[[]]
  []
 
-<images/chapter2/rose.jpg, id=334, 1636.1125pt x 1027.84pt>
+<images/chapter2/rose.jpg, id=326, 1636.1125pt x 1027.84pt>
 File: images/chapter2/rose.jpg Graphic file (type jpg)
 <use images/chapter2/rose.jpg>
 Package pdftex.def Info: images/chapter2/rose.jpg  used on input line 7.
@@ -606,77 +603,35 @@ Overfull \hbox (6.50348pt too wide) in paragraph at lines 20--21
 \T1/futs/m/n/12 Information vi-su-al-iza-tion (In-fo-Vis) is the prac-tice of rep-re-sent-ing data in a mean-
  []
 
-<images/chapter2/types-of-data-visualization.jpg, id=346, 1156.32pt x 694.09312pt>
+<images/chapter2/types-of-data-visualization.jpg, id=338, 1156.32pt x 694.09312pt>
 File: images/chapter2/types-of-data-visualization.jpg Graphic file (type jpg)
 <use images/chapter2/types-of-data-visualization.jpg>
 Package pdftex.def Info: images/chapter2/types-of-data-visualization.jpg  used on input line 26.
 (pdftex.def)             Requested size: 234.00238pt x 140.45776pt.
 [17 <./images/chapter2/types-of-data-visualization.jpg>]
-<images/chapter2/simplepipline.PNG, id=356, 199.34476pt x 283.0575pt>
+<images/chapter2/simplepipline.PNG, id=348, 199.34476pt x 283.0575pt>
 File: images/chapter2/simplepipline.PNG Graphic file (type png)
 <use images/chapter2/simplepipline.PNG>
 Package pdftex.def Info: images/chapter2/simplepipline.PNG  used on input line 37.
 (pdftex.def)             Requested size: 77.99881pt x 110.75046pt.
-<images/chapter2/infoVispipeline.PNG, id=358, 517.935pt x 95.75775pt>
+<images/chapter2/infoVispipeline.PNG, id=350, 517.935pt x 95.75775pt>
 File: images/chapter2/infoVispipeline.PNG Graphic file (type png)
 <use images/chapter2/infoVispipeline.PNG>
 Package pdftex.def Info: images/chapter2/infoVispipeline.PNG  used on input line 48.
-(pdftex.def)             Requested size: 292.5pt x 54.0813pt.
+(pdftex.def)             Requested size: 312.00119pt x 57.68594pt.
  [18 <./images/chapter2/simplepipline.PNG> <./images/chapter2/infoVispipeline.PNG>]
 Overfull \hbox (0.49203pt too wide) in paragraph at lines 60--61
 \T1/futs/m/n/12 be col-lected through sev-eral sources, in-clud-ing on-line sources, com-
  []
 
-
-Overfull \hbox (1.45152pt too wide) in paragraph at lines 81--82
-\T1/futs/m/n/12 tures which could be used by ex-ec-u-tive man-agers, doc-tors, physi-cians and other
- []
-
-[19]
-<images/chapter2/cancerDiagrame.PNG, id=389, 337.86224pt x 145.14224pt>
-File: images/chapter2/cancerDiagrame.PNG Graphic file (type png)
-<use images/chapter2/cancerDiagrame.PNG>
-Package pdftex.def Info: images/chapter2/cancerDiagrame.PNG  used on input line 88.
-(pdftex.def)             Requested size: 292.5pt x 125.66147pt.
- [20 <./images/chapter2/cancerDiagrame.PNG>]
-<images/chapter2/cancersystem.PNG, id=399, 395.076pt x 213.1965pt>
-File: images/chapter2/cancersystem.PNG Graphic file (type png)
-<use images/chapter2/cancersystem.PNG>
-Package pdftex.def Info: images/chapter2/cancersystem.PNG  used on input line 96.
-(pdftex.def)             Requested size: 253.49762pt x 136.79987pt.
-
-Overfull \hbox (3.86394pt too wide) in paragraph at lines 93--100
-[]\T1/futs/m/it/12 Architecture De-sign: \T1/futs/m/n/12 Data is im-ported from sev-eral sources and trans-
- []
-
-<images/chapter2/pharmacysystem.PNG, id=402, 354.72525pt x 257.16075pt>
-File: images/chapter2/pharmacysystem.PNG Graphic file (type png)
-<use images/chapter2/pharmacysystem.PNG>
-Package pdftex.def Info: images/chapter2/pharmacysystem.PNG  used on input line 105.
-(pdftex.def)             Requested size: 195.0pt x 141.36821pt.
-
-Overfull \hbox (14.39824pt too wide) in paragraph at lines 102--109
-\T1/futs/m/n/12 dis-tri-bu-tion sys-tems in phar-ma-ceu-ti-cal com-pa-nies to de-crease the medicine
- []
-
-[21 <./images/chapter2/cancersystem.PNG> <./images/chapter2/pharmacysystem.PNG>]
-Overfull \hbox (3.92223pt too wide) in paragraph at lines 110--111
-\T1/futs/m/n/12 keys in the frame-work Apache Hive re-quired in the con-cep-tual data model.
- []
-
-<images/chapter2/relatedworkHadoop.PNG, id=413, 300.52275pt x 389.0535pt>
-File: images/chapter2/relatedworkHadoop.PNG Graphic file (type png)
-<use images/chapter2/relatedworkHadoop.PNG>
-Package pdftex.def Info: images/chapter2/relatedworkHadoop.PNG  used on input line 115.
-(pdftex.def)             Requested size: 195.0pt x 252.44841pt.
-
-Overfull \hbox (0.89949pt too wide) in paragraph at lines 124--125
-\T1/futs/m/n/12 med-i-cal data that aims to man-age the un-com-mon data from the var-i-ous sources
- []
-
-[22 <./images/chapter2/relatedworkHadoop.PNG>] [23]
-Overfull \hbox (9.82437pt too wide) in paragraph at lines 148--149
+[19] [20]
+Overfull \hbox (9.82437pt too wide) in paragraph at lines 101--102
 []\T1/futs/m/n/12 Several ap-proaches have been de-vel-oped de-pend-ing on the in-te-gra-tion needs.
+ []
+
+
+Overfull \hbox (5.43597pt too wide) in paragraph at lines 106--107
+[]\T1/futs/m/n/12 Data trans-for-ma-tion, which con-sists of clean-ing and ag-gre-gat-ing data
  []
 
 (Tables/chapter2/Integration_Approaches_comparaison.tex
@@ -734,13 +689,67 @@ Overfull \hbox (52.39996pt too wide) in paragraph at lines 3--23
  [][] 
  []
 
-[24])) (parts/Implementation.tex [25]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) (parts/contribution.tex [21] [22]
 Chapter 4.
-[26
+
+Overfull \hbox (0.89949pt too wide) in paragraph at lines 2--3
+\T1/futs/m/n/12 med-i-cal data that aims to man-age the un-com-mon data from the var-i-ous sources
+ []
+
+
+Overfull \hbox (1.45152pt too wide) in paragraph at lines 15--16
+\T1/futs/m/n/12 tures which could be used by ex-ec-u-tive man-agers, doc-tors, physi-cians and other
+ []
+
+[23
 
 ]
+<images/chapter2/cancerDiagrame.PNG, id=410, 337.86224pt x 145.14224pt>
+File: images/chapter2/cancerDiagrame.PNG Graphic file (type png)
+<use images/chapter2/cancerDiagrame.PNG>
+Package pdftex.def Info: images/chapter2/cancerDiagrame.PNG  used on input line 24.
+(pdftex.def)             Requested size: 292.5pt x 125.66147pt.
+<images/chapter2/cancersystem.PNG, id=412, 395.076pt x 213.1965pt>
+File: images/chapter2/cancersystem.PNG Graphic file (type png)
+<use images/chapter2/cancersystem.PNG>
+Package pdftex.def Info: images/chapter2/cancersystem.PNG  used on input line 31.
+(pdftex.def)             Requested size: 292.5pt x 157.8475pt.
+
+Overfull \hbox (3.86394pt too wide) in paragraph at lines 28--35
+[]\T1/futs/m/it/12 Architecture De-sign: \T1/futs/m/n/12 Data is im-ported from sev-eral sources and trans-
+ []
+
+<images/chapter2/pharmacysystem.PNG, id=415, 354.72525pt x 257.16075pt>
+File: images/chapter2/pharmacysystem.PNG Graphic file (type png)
+<use images/chapter2/pharmacysystem.PNG>
+Package pdftex.def Info: images/chapter2/pharmacysystem.PNG  used on input line 40.
+(pdftex.def)             Requested size: 292.5pt x 212.05035pt.
+
+Overfull \hbox (14.39824pt too wide) in paragraph at lines 37--44
+\T1/futs/m/n/12 dis-tri-bu-tion sys-tems in phar-ma-ceu-ti-cal com-pa-nies to de-crease the medicine
+ []
+
+[24 <./images/chapter2/cancerDiagrame.PNG> <./images/chapter2/cancersystem.PNG>]
+Overfull \hbox (3.92223pt too wide) in paragraph at lines 45--46
+\T1/futs/m/n/12 keys in the frame-work Apache Hive re-quired in the con-cep-tual data model.
+ []
+
+[25 <./images/chapter2/pharmacysystem.PNG>]
+<images/chapter2/relatedworkHadoop.PNG, id=435, 300.52275pt x 389.0535pt>
+File: images/chapter2/relatedworkHadoop.PNG Graphic file (type png)
+<use images/chapter2/relatedworkHadoop.PNG>
+Package pdftex.def Info: images/chapter2/relatedworkHadoop.PNG  used on input line 50.
+(pdftex.def)             Requested size: 195.0pt x 252.44841pt.
+) (parts/Implementation.tex [26 <./images/chapter2/relatedworkHadoop.PNG>]
 Chapter 5.
-) (main.bbl [27
+[27
+
+]
+Chapter 6.
+) (main.bbl [28
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
@@ -802,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 []\T1/futs/m/n/12 What Is the Data Anal-y-sis Pro-cess? 5 Key Steps to Fol-low.
  []
 
-[28
+[29
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 58--61
@@ -819,30 +828,27 @@ Underfull \hbox (badness 1062) in paragraph at lines 119--122
 \T1/futs/m/n/12 Kaushik.  Big data in health-care: man-age-ment, anal-y-sis and fu-ture
  []
 
-[29]
+[30]
 Underfull \hbox (badness 1052) in paragraph at lines 185--189
 \T1/futs/m/n/12 Af-saneh Dehnad.  Se-cu-rity re-quire-ments of in-ter-net of things-based
  []
 
-[30] [31]) [32] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
+[31] [32]) [33] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C069DD8F139C420A3B43D97043EC1F1B;4944.
+(rerunfilecheck)             Checksum: A9E45CD2B0766D6D6C943CB8BB30BEA0;4071.
  ) 
 Here is how much of TeX's memory you used:
- 12512 strings out of 478699
- 208061 string characters out of 2846487
- 520056 words of memory out of 3000000
+ 12514 strings out of 478699
+ 208101 string characters out of 2846487
+ 518163 words of memory out of 3000000
  30226 multiletter control sequences out of 15000+600000
  466160 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,77p,1125b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,11n,77p,1125b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (32 pages, 2227240 bytes).
+Output written on main.pdf (33 pages, 2227447 bytes).
 PDF statistics:
- 526 PDF objects out of 1000 (max. 8388607)
- 145 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

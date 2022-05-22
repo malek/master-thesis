@@ -14,15 +14,13 @@
 \contentsline {chapter}{\numberline {3}Information Visualization (infoVis)}{16}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Definition}{17}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Visualization pipeline}{18}{section.3.2}%
-\contentsline {section}{\numberline {3.3}InfoVis and medical data -Literature \& Related works review-}{20}{section.3.3}%
-\contentsline {section}{\numberline {3.4}System design}{23}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}The Data Warehouse Architecture}{23}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Diagrams \& Architecture}{24}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Data Integration Approaches}{24}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Extract Transform and Load (ETL)}{24}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Enterprise Information Integration(EII)}{24}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Enterprise Application Integration(EAI)}{24}{subsection.3.5.3}%
-\contentsline {chapter}{\numberline {4}Implementation}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tools}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Result}{26}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion \& Future work}{27}{chapter.5}%
+\contentsline {section}{\numberline {3.3}Data Warehouse Systems}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Data Integration Approaches}{21}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Contribution}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Work Objectives}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Literature \& Related works review}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Diagrams \& Architecture}{26}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Implementation}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Tools}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Result}{27}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusion \& Future work}{28}{chapter.6}%

@@ -1,11 +1,11 @@
 \chapter{Information Visualization (infoVis)}
 
-Human mind is very visual, following Williams et al., visualization is “a cognitive process performed by humans in forming a mental image of a domain space. In computer and information science it is, more specifically, the visual representation of a domain space using graphics, images, animated sequences, and sound augmentation to present the data, structure, and dynamic behavior of large, complex data sets that represent systems, events, processes, objects, and concepts”\cite{williamsVisualization1995}. The (Figure \ref{fig:roseDiagrame}) below presents the Florence Nightingale's 'Rose diagram' published in 1858 showing the reduction in the number of deaths in military hospitals in Scutari arising from the changes she instituted\cite{spence2001information} .
+Human mind is very visual, following Williams et al., visualization is “a cognitive process performed by humans in forming a mental image of a domain space. In computer and information science it is, more specifically, the visual representation of a domain space using graphics, images, animated sequences, and sound augmentation to present the data, structure, and dynamic behavior of large, complex data sets that represent systems, events, processes, objects, and concepts”\cite{williamsVisualization1995}. The (Figure \ref{fig:roseDiagram}) below presents the Florence Nightingale's 'Rose diagram' published in 1858 showing the reduction in the number of deaths in military hospitals in Scutari arising from the changes she instituted\cite{spence2001information} .
 
 \begin{figure}[h!]
     \center
     \includegraphics[width=0.78\textwidth]{images/chapter2/rose.jpg}
-    \caption{Rose Diagrame}
+    \caption{Rose Diagram}
     \label{fig:roseDiagram}
   \end{figure}
 
@@ -45,8 +45,8 @@ As science progresses, this model has been detailed, Figure \ref{fig:infovispipe
 
 \begin{figure}[h!]
   \center
-  \includegraphics[width=0.75\textwidth]{images/chapter2/infoVispipeline.PNG}
-  \caption{A simple visualization pipeline.}
+  \includegraphics[width=0.80\textwidth]{images/chapter2/infoVispipeline.PNG}
+  \caption{A visualization pipeline describes the process of creating visual representations of data.}
   \label{fig:infovispipeline}
 \end{figure}
 
@@ -54,7 +54,7 @@ As science progresses, this model has been detailed, Figure \ref{fig:infovispipe
  
 \begin{enumerate}
   \item \textbf{\textit{Raw data:}} First, we have to import the data. This implies finding a representation of the original information we want to investigate in terms of a data set. Practically, importing data means choosing a specific dataset implementation and converting the original information to the representation implied by the chosen dataset in order to turn this data into information using Data analysis.
-  \item \textbf{\textit{Data Analysis:}} Is the process of bringing order and structure to collected data. It turns data into information teams can use. Analysis is done using systematic methods to look for trends, groupings, or other relationships between different types of data\cite{DataAnalysisVisualization}, following this process:
+  \item \textbf{\textit{Data Analysis:}} Is the process of bringing order and structure to collected data. mostly using data warehouse systems (\ref{sec:dataWarehouse}), It turns data into information  that teams can use. Analysis is done using systematic methods to look for trends, groupings, or other relationships between different types of data\cite{DataAnalysisVisualization}, following this process:
   \begin{itemize}
   \item \textbf{\textit{Data Requirements Specification:}} The data required for analysis is based on a question or an experiment. Based on the requirements of those directing the analysis, the data necessary as inputs to the analysis is identified (e.g., Population of people). Specific variables regarding a population (e.g., Age and Income) may be specified and obtained. Data may be numerical or categorical\cite{DataAnalysisProcess}.
   \item \textbf{\textit{Data Collection:}} Guided by the requirements identified, Data can be collected through several sources, including online sources, computers, personnel, and sources from the community.
@@ -72,57 +72,8 @@ As science progresses, this model has been detailed, Figure \ref{fig:infovispipe
 
 
 
-
-
-
-
-
-\section{InfoVis and medical data -Literature \& Related works review-}
-We present in this section architecture for healthcare data warehouses and solutions that attempt to integrate infoVis into medical data and medical structures which could be used by executive managers, doctors, physicians and other health professionals to support the healthcare process.  Medical data existing today in multiple sources with different formats makes it necessary to have certain data integration techniques. A healthcare data warehouse is therefore needed to integrate the different data sources into a central data repository and analyze this data.
-\begin{itemize}
-  \item \textbf{\textit{A Healthcare Data Warehouse for Cancer Diseases:}} Dr.Osama E.Sheta and Ahmed Nour Eldeen discussed in their paper\cite{shetaBuildingHealthCare2012} the implementation of a healthcare data warehouse for cancer diseases, they proposed  two stages approach for the building cancer data warehouse: 
-  \begin{enumerate}
-    \item \textit{Business Analysis:} Consist of business process analysis and business requirement analysis (Figure\ref{fig:cancerDiagrame}).
-    \begin{figure}[h!]
-      \center
-      \includegraphics[width=0.75\textwidth]{images/chapter2/cancerDiagrame.PNG}
-      \caption{Cancer data warehouse use case diagram.}
-      \label{fig:cancerDiagrame}
-    \end{figure}
-    \newpage
-    \item \textit{Architecture Design:} Data is imported from several sources and transformed within a staging area before it is integrated and stored in the production data warehouse for further analysis (Figure\ref{fig:cancersystem}).
-     \begin{figure}[h!]
-      \center
-      \includegraphics[width=0.65\textwidth]{images/chapter2/cancersystem.PNG}
-      \caption{Cancer data warehouse Architecture Taken from the source.}
-      \label{fig:cancersystem}
-    \end{figure}
-    \end{enumerate}
-    
-    \item \textbf{\textit{Data Warehouse Framework in Pharmaceutical Sector:}} In this paper\cite{abd2019proposed} authors proposed a data warehouse framework to enhance decisions of distribution systems in pharmaceutical companies to decrease the medicine industry cost and increase productivity. The framework can be described in four phases shown in (Figure \ref{fig:pharmacysystem}). Phase one consists of a data preparation phase which has four steps (data collection, building DBs, DWH and data cleaning). Phase two consists of training phase which is applying time series to three types of Neural Networks techniques (levenberg marquardt, Bayesian regularized, and Scaled conjugate gradient).Phase three is testing the performance based on mean square error (MSE). Phase four consists of evaluating the performance of the best prediction model.
-    \begin{figure}[h!]
-      \center
-      \includegraphics[width=0.50\textwidth]{images/chapter2/pharmacysystem.PNG}
-      \caption{The Proposed Framework of Sales Prediction.}
-      \label{fig:pharmacysystem}
-    \end{figure}
-    \newpage
-    \item \textbf{\textit{Big Bata Warehouse Based On Hadoop Architecture:}} In this paper\cite{sebaa2018medical} entitled “Medical Big Data Warehouse: Architecture and System Design, a Case Study: Improving Healthcare Resources Distribution” authors proposed a system architecture and a conceptual data model for a MBDW (Medical Big Data Warehouse), and then offer a solution to overcome both the growing of fact table size and the lack of primary and foreign keys in the framework Apache Hive required in the conceptual data model. This solution is based on nested partitioning according to the dimension tables keys, then  applying their solution to implement a MBDW to improve medical resources distribution for the health sector in the Bejaia region (in Algeria). 
-    
-    The overall architecture is depicted in (Figure \ref{fig:bigdatarelated}). It is a scalable, reliable, and distributed architecture to extract, store, analyze, and visualize healthcare data extracted from various resources HIS (Hospitals Information systems).
-    \begin{figure}[h!]
-      \center
-      \includegraphics[width=0.50\textwidth]{images/chapter2/relatedworkHadoop.PNG}
-      \caption{Hadoop-based system
-      architecture of medical big data warehousing.}
-      \label{fig:bigdatarelated}
-    \end{figure}
-\end{itemize}
-
-
-\section{System design}
-In this section we propose our data warehouse and visualization system for medical data that aims to manage the uncommon data from the various sources using a conventional common language between the different health actors.
-\subsection{The Data Warehouse Architecture}
+\section{Data Warehouse Systems}
+\label{sec:dataWarehouse}
 The concept of "data warehousing" arose in the mid 1980s with the intention to support huge information analysis and management reporting\cite{wahDevelopmentDataWarehouse2009}. Data warehouse was defined According to Bill Inmon a “subject-oriented, integrated, time variant and non-volatile collection of data in support of management’s decision making process”\cite{inmonBuildingDataWarehouse2005}.
  
  
@@ -141,24 +92,24 @@ There are three major areas in the data warehouse architecture as following:
   \item \textbf{\textit{Information visualization:}} This step focuses mainly on the visualization part, it makes it easy for the users to access the information directly from the data warehouse.
 \end{itemize}
 
-\subsection{Diagrams \& Architecture}
+
+
+\newpage
 \section{Data Integration Approaches} 
 Data integration is the most tedious and time-consuming step in setting up a decision-making information system. During this step, the data is transformed and filtered to represent a homogeneous, common and stable source of information. The performance of the SID is closely linked to the quality of data integration. It should be noted that the data integration step is not limited to the decision-making domain. It is more general and can be applied for different needs: bringing together and requesting several operational information systems, communicating applications that have been made in silos (independently of each other), etc.
  
-Several approaches have been developed depending on the integration needs. We present in this section the most used approaches\cite{naitEntropot}.
-\subsection{Extract Transform and Load (ETL)}
-This is the most used approach in setting up a data warehouse. In this approach, the integration is done in three steps:
+Several approaches have been developed depending on the integration needs. We present the most used approaches\cite{naitEntropot}:
+\begin{itemize}
+  \item \textbf{\textit{Extract Transform and Load (ETL):}}\newline This is the most used approach in setting up a data warehouse. In this approach, the integration is done in three steps:
 \begin{itemize}
 \item Extracting data from sources.
 \item Data transformation, which consists of cleaning and aggregating data to integrate them into a predefined schema.
 \item Loading data into the target (the data warehouse).
 \end{itemize}
- 
-\subsection{Enterprise Information Integration(EII)}
-In the EII approach, no physical integration is performed. Heterogeneous data sources are consolidated using a virtual database, transparent to applications using the data. The virtual database provides a unified view of data. Users send their request directly to the database. The query is then broken down into sub-queries that will be sent to the respective sources. The answers are assembled into a final result.
- 
-\subsection{Enterprise Application Integration(EAI)}
-In order to connect applications built in different environments and with different technologies, the EAI approach is based on application integration and sharing of their data using web services (SOA architecture). This approach allows for real-time communication.
+
+  \item \textbf{\textit{Enterprise Information Integration(EII):}}\newline In the EII approach, no physical integration is performed. Heterogeneous data sources are consolidated using a virtual database, transparent to applications using the data. The virtual database provides a unified view of data. Users send their request directly to the database. The query is then broken down into sub-queries that will be sent to the respective sources. The answers are assembled into a final result.
+  \item \textbf{\textit{Enterprise Application Integration(EAI):}}\newline In order to connect applications built in different environments and with different technologies, the EAI approach is based on application integration and sharing of their data using web services (SOA architecture). This approach allows for real-time communication.
 It is also used to feed data warehouses. This approach does not replace ETL.
+\end{itemize}
 
 \input{Tables/chapter2/Integration_Approaches_comparaison.tex}
