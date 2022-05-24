@@ -1,11 +1,11 @@
-\chapter{Contribution}
+\chapter{Contribution \& Discussion}
 In this chapter we propose our data warehouse and visualization system for medical data that aims to manage the uncommon data from the various sources using a conventional common language between the different health actors.
 
 
 
 
 \section{Work Objectives}
-The aim of this work is to propose a data warehouse system that organizes data coming from different sources by producing a common language. I NEED SOME BLA BLA HERE.
+The aim of this work is to propose a data warehouse system that organizes data coming from different sources by producing a common language. We are interested in the step between Rendering and Data image in the pipeline process(\ref{fig:infovispipeline}). After reviewing and analyzing similar proposed works, we created our own visualization system for medical data in a conventional common language.
 
 
 
@@ -16,7 +16,7 @@ We present in this section architecture for healthcare data warehouses and solut
 
 \begin{itemize}
   \item \textbf{\textit{A Healthcare Data Warehouse for Cancer Diseases:}} Dr.Osama E.Sheta and Ahmed Nour Eldeen discussed in their paper\cite{shetaBuildingHealthCare2012} the implementation of a healthcare data warehouse for cancer diseases, they proposed  two stages approach for the building cancer data warehouse: 
-  \newpage
+  
   \begin{enumerate}
     \item \textit{Business Analysis:} Consist of business process analysis and business requirement analysis (Figure\ref{fig:cancerDiagrame}).
     \begin{figure}[h!]
@@ -48,12 +48,30 @@ We present in this section architecture for healthcare data warehouses and solut
     \begin{figure}[h!]
       \center
       \includegraphics[width=0.50\textwidth]{images/chapter2/relatedworkHadoop.PNG}
-      \caption{Hadoop-based system
-      architecture of medical big data warehousing.}
+      \caption{Hadoop-based system architecture of medical big data warehousing.}
       \label{fig:bigdatarelated}
     \end{figure}
 \end{itemize}
 
 
+\section{Proposed Solution}
+As mentioned in the project description, the presence of a visualization presentation in the medical sector is necessary. The proposed solution was to create a system that organizes the data and structures it, we used for that the eXtensible Markup Language (XML).
+\newpage
+\subsection{Architecture}
 
-\section{Diagrams \& Architecture}
+
+\begin{figure}[h!]
+  \center
+  \includegraphics[width=0.99\textwidth]{images/chapter3/tree.jpg}
+  \caption{The corresponding tree of XML schema.}
+  \label{fig:xmlschema}
+\end{figure}
+We focused on the following type of data:
+\begin{itemize}
+\item \textbf{Patient:} That presents the administrative information about the patient x, including his full name, gender, date of birth, address. 
+\item \textbf{Drug:} Presents the list of drugs in the patient’s  prescription, it includes: the drug’s name, its dosage, strength usually mentioned by the doctor, the quantity, and its type(liquid or table).
+\item \textbf{Diagnosis:} Includes the doctor's name, the diagnosis in the form of a text, and the observations taken by the medical actor in charge. 
+\item \textbf{BioResults:} It presents the medical biology results that includes the analysis’s name,the patient rate saved, the gender and the age for the comparison (a predefined high/low rate is defined corresponding to each analysis).
+\item \textbf{ImagesData:} Presents the images data the patient got, it includes the image name and the image itself.
+\end{itemize}
+

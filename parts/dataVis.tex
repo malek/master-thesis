@@ -84,7 +84,9 @@ There are three major areas in the data warehouse architecture as following:
   \item \textbf{\textit{Data Acquisition:}} This step covers the process of extracting data from the multi sources, moving all extracted data to the stage and preparing the data for loading into the repository. The two main architectural components of this area are the source data and the data store, which is where all the extracted data is gathered and prepared for loading into the data warehouse.
   
   Following the medical data that are mentioned in the Table\ref{tab:sourceTable}, we chose to work on  the 3 different data related to different medical actors:
+
   
+  %TODO: re check les termes ta3 les data qui vont etre visualizer
   \underline{Administrative} data, data relating to \underline{medical procedures} and data relating to \underline{the drugs administered to the patient} that are explained in chapter\ref{chap:healthData}.
   \item \textbf{\textit{Data processing and storage:}} This stage covers all preparations and analysis that take place on our data from data cleaning to data processing to filtering till the rendering step (the steps mentioned in section\ref{sec:visualization_pipeline}).
   At this stage, the data goes through a series of transformations to extract the focus data into clear and clean formats to build a sort of common language.
