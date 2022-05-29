@@ -19,6 +19,14 @@ Warning--to sort, need author or key in DataAnalysisProcess
 Warning--to sort, need author or key in DataAnalysis2022
 Warning--to sort, need author or key in WhatDataAnalysis
 Warning--to sort, need author or key in WhatDataFiltering
+Warning--to sort, need author or key in WelcomePythonOrg
+Warning--to sort, need author or key in PythonLangageWikipedia
+Warning--to sort, need author or key in PandasPythonData
+Warning--to sort, need author or key in Pandas2020
+Warning--to sort, need author or key in TalendOpenStudio
+Warning--to sort, need author or key in WhatTableauUltimate
+Warning--to sort, need author or key in InteractiveJavascriptCharts
+Warning--empty author in Pandas2020
 Warning--empty author in DataAnalysis2022
 Warning--empty journal in alrehielyEvaluatingDifferentVisualization
 Warning--empty year in alrehielyEvaluatingDifferentVisualization
@@ -27,48 +35,49 @@ Warning--empty publisher in belsisPervasiveSecureElectronic2005
 Warning--empty booktitle in emmanuelchazardReutilisationFouilleDonnees2017
 Warning--empty journal in martigneneVisualisationUnifieeDonnees
 Warning--empty year in martigneneVisualisationUnifieeDonnees
+Warning--empty journal in mehdiPfe
 Warning--empty publisher in teleaDataVisualizationPrinciples2008
 Warning--empty journal in wahDevelopmentDataWarehouse2009
 Warning--can't use both author and editor fields in Zillner2016
-You've used 47 entries,
+You've used 57 entries,
             2118 wiz_defined-function locations,
-            777 strings with 13623 characters,
-and the built_in function-call counts, 13366 in all, are:
-= -- 1290
-> -- 560
-< -- 7
-+ -- 241
-- -- 184
-* -- 910
-:= -- 2115
-add.period$ -- 127
-call.type$ -- 47
-change.case$ -- 228
+            823 strings with 14835 characters,
+and the built_in function-call counts, 15518 in all, are:
+= -- 1501
+> -- 610
+< -- 8
++ -- 265
+- -- 198
+* -- 1028
+:= -- 2407
+add.period$ -- 149
+call.type$ -- 57
+change.case$ -- 265
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 515
-empty$ -- 1148
-format.name$ -- 184
-if$ -- 2824
+cite$ -- 91
+duplicate$ -- 605
+empty$ -- 1384
+format.name$ -- 198
+if$ -- 3313
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 40
-newline$ -- 223
-num.names$ -- 66
-pop$ -- 298
+int.to.str$ -- 57
+missing$ -- 44
+newline$ -- 265
+num.names$ -- 72
+pop$ -- 364
 preamble$ -- 1
-purify$ -- 186
+purify$ -- 213
 quote$ -- 0
-skip$ -- 397
+skip$ -- 481
 stack$ -- 0
-substring$ -- 744
-swap$ -- 88
-text.length$ -- 7
+substring$ -- 863
+swap$ -- 102
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 176
-warning$ -- 25
-while$ -- 113
-width$ -- 49
-write$ -- 454
-(There were 25 warnings)
+type$ -- 216
+warning$ -- 34
+while$ -- 126
+width$ -- 59
+write$ -- 534
+(There were 34 warnings)

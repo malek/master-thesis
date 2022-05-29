@@ -3,10 +3,11 @@
 \usepackage{fourier} %for the font
 \usepackage[english]{babel} %To use the csquotes package without warnings
 \usepackage[autostyle]{csquotes} %for the quotes -> \enquote{the quote}
-
+\usepackage{wrapfig} % For using images wrapped inside some text
 \usepackage{graphicx}   % For images 
 \usepackage{subcaption} % for multiple image captions
 \usepackage{array}      %for tables
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 \title{Medical Structure Visualization}
 \author{Malek Benzerga}
 
@@ -20,18 +21,33 @@
 }
 
 
+\hypersetup{
+pdftitle={VISUALIZATION OF HEALTH DATA IN A MEDICAL SECTOR},
+pdfsubject={Master Graduation Project},
+pdfauthor={Benzerga Malek kheira},
+%TODO: keywords
+pdfkeywords={}
+}
+
+%		Header		%		
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\rhead{\thepage}
+\lhead{\leftmark}
+
 \begin{document}
 
 
 \tableofcontents
 \listoffigures
 \listoftables 
+ 
 \input{parts/introduction.tex}
 \input{parts/health_and_data.tex}
 \input{parts/dataVis.tex}
 \input{parts/contribution.tex}
 \input{parts/Implementation.tex}
-%\input{parts/tocheck.tex}
+\input{parts/conclusion.tex}
 \bibliographystyle{plain}
 \bibliography{biblo.bib}
 \end{document}

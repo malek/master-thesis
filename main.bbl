@@ -31,15 +31,34 @@ Healthcare data volume globally 2020 forecast.
 \newblock
   https://www.statista.com/statistics/1037970/global-healthcare-data-volume/.
 
+\bibitem{InteractiveJavascriptCharts}
+Interactive javascript charts library.
+
 \bibitem{KeyMaintainingMedical}
 The {{Key}} to {{Maintaining Medical Records}} | {{Smartsheet}}.
 \newblock https://www.smartsheet.com/medical-records-management.
+
+\bibitem{PandasPythonData}
+Pandas - {{Python Data Analysis Library}}.
+\newblock https://pandas.pydata.org/.
 
 \bibitem{PaperbasedComputerbasedRecords}
 Paper-based versus computer-based records in the emergency department:
   {{Staff}} preferences, expectations, and concerns - {{Haleh Ayatollahi}},
   {{Peter A}}. {{Bath}}, {{Steve Goodacre}}, 2009.
 \newblock https://journals.sagepub.com/doi/10.1177/1460458209337433.
+
+\bibitem{PythonLangageWikipedia}
+Python (langage) \textemdash{} {{Wikip\'edia}}.
+\newblock https://fr.wikipedia.org/wiki/Python\_(langage).
+
+\bibitem{TalendOpenStudio}
+{Talend Open Studio for Data Integration}.
+\newblock https://www.next-decision.fr/editeurs-bi/etl/talend-open-studio.
+
+\bibitem{WelcomePythonOrg}
+Welcome to {{Python}}.org.
+\newblock https://www.python.org/.
 
 \bibitem{WhatDataFiltering}
 What is {{Data Filtering}}? - {{Displayr}}.
@@ -50,6 +69,11 @@ What is {{Information Visualization}}?
 \newblock
   https://www.tibco.com/reference-center/what-is-information-visualization.
 
+\bibitem{WhatTableauUltimate}
+What is {{Tableau}}: {{The Ultimate Guide To Know All About Tableau}} in 2021.
+\newblock
+  https://www.simplilearn.com/tutorials/tableau-tutorial/what-is-tableau.
+
 \bibitem{WhatDataAnalysis}
 What {{Is}} the {{Data Analysis Process}}? 5 {{Key Steps}} to {{Follow}}.
 \newblock https://www.g2.com/articles/data-analysis-process.
@@ -58,6 +82,10 @@ What {{Is}} the {{Data Analysis Process}}? 5 {{Key Steps}} to {{Follow}}.
 Wheel | {{What}} are {{Electronic Medical Records}}.
 \newblock
   https://www.wheel.com/companies-blog/what-are-electronic-medical-records.
+
+\bibitem{Pandas2020}
+{Pandas}.
+\newblock {\em Wikip\'edia}, June 2020.
 
 \bibitem{DataAnalysis2022}
 Data analysis.
@@ -68,6 +96,11 @@ Noura~Mahmoud Abd~Elazeem, Nevine~Makram Labib, and Aliaa~Kamal Abdella.
 \newblock A proposed data warehouse framework to enhance decisions of
   distribution system in pharmaceutical sector.
 \newblock {\em Egyptian Computer Science Journal}, 43(2):43--60, 2019.
+
+\bibitem{achard2001xml}
+Frederic Achard, Guy Vaysseix, and Emmanuel Barillot.
+\newblock Xml, bioinformatics and data integration.
+\newblock {\em Bioinformatics}, 17(2):115--125, 2001.
 
 \bibitem{alotaibi2017impact}
 Yasser~K Alotaibi and Frank Federico.
@@ -175,6 +208,11 @@ Izet Masic.
 \newblock The history and new trends of medical informatics.
 \newblock {\em Donald School J Ultrasound Obstet Gynecol}, 7(3):301--302, 2013.
 
+\bibitem{mehdiPfe}
+Benmohamed Aek~El Mehdi.
+\newblock Intégration continue dans un projet decisionnel au sein de la cnl.
+\newblock pages 1--73, 2018.
+
 \bibitem{morelandSurveyVisualizationPipelines2013}
 Kenneth Moreland.
 \newblock A {{Survey}} of {{Visualization Pipelines}}.
@@ -230,6 +268,12 @@ Paul~C. Tang, Joan~S. Ash, David~W. Bates, J.~Marc Overhage, and Daniel~Z.
 Alexandru Telea.
 \newblock {\em Data {{Visualization}}: {{Principles}} and {{Practice}}}.
 \newblock January 2008.
+
+\bibitem{thuy2012s}
+Pham Thi~Thu Thuy, Young-Koo Lee, and Sungyoung Lee.
+\newblock S-trans: Semantic transformation of xml healthcare data into owl
+  ontology.
+\newblock {\em Knowledge-Based Systems}, 35:349--356, 2012.
 
 \bibitem{wahDevelopmentDataWarehouse2009}
 Teh Wah and Ong Sim.

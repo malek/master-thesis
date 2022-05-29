@@ -21,14 +21,14 @@ We present in this section architecture for healthcare data warehouses and solut
     \item \textit{Business Analysis:} Consist of business process analysis and business requirement analysis (Figure\ref{fig:cancerDiagrame}).
     \begin{figure}[h!]
       \center
-      \includegraphics[width=0.75\textwidth]{images/chapter2/cancerDiagrame.PNG}
+      \includegraphics[width=0.75\textwidth]{images/chapter3/cancerDiagrame.PNG}
       \caption{Cancer data warehouse use case diagram.}
       \label{fig:cancerDiagrame}
     \end{figure}
     \item \textit{Architecture Design:} Data is imported from several sources and transformed within a staging area before it is integrated and stored in the production data warehouse for further analysis (Figure\ref{fig:cancersystem}).
      \begin{figure}[h!]
       \center
-      \includegraphics[width=0.75\textwidth]{images/chapter2/cancersystem.PNG}
+      \includegraphics[width=0.75\textwidth]{images/chapter3/cancersystem.PNG}
       \caption{Cancer data warehouse Architecture Taken from the source.}
       \label{fig:cancersystem}
     \end{figure}
@@ -37,7 +37,7 @@ We present in this section architecture for healthcare data warehouses and solut
     \item \textbf{\textit{Data Warehouse Framework in Pharmaceutical Sector:}} In this paper\cite{abd2019proposed} authors proposed a data warehouse framework to enhance decisions of distribution systems in pharmaceutical companies to decrease the medicine industry cost and increase productivity. The framework can be described in four phases shown in (Figure \ref{fig:pharmacysystem}). Phase one consists of a data preparation phase which has four steps (data collection, building DBs, DWH and data cleaning). Phase two consists of training phase which is applying time series to three types of Neural Networks techniques (levenberg marquardt, Bayesian regularized, and Scaled conjugate gradient).Phase three is testing the performance based on mean square error (MSE). Phase four consists of evaluating the performance of the best prediction model.
     \begin{figure}[h!]
       \center
-      \includegraphics[width=0.75\textwidth]{images/chapter2/pharmacysystem.PNG}
+      \includegraphics[width=0.75\textwidth]{images/chapter3/pharmacysystem.PNG}
       \caption{The Proposed Framework of Sales Prediction.}
       \label{fig:pharmacysystem}
     \end{figure}
@@ -47,7 +47,7 @@ We present in this section architecture for healthcare data warehouses and solut
     The overall architecture is depicted in (Figure \ref{fig:bigdatarelated}). It is a scalable, reliable, and distributed architecture to extract, store, analyze, and visualize healthcare data extracted from various resources HIS (Hospitals Information systems).
     \begin{figure}[h!]
       \center
-      \includegraphics[width=0.50\textwidth]{images/chapter2/relatedworkHadoop.PNG}
+      \includegraphics[width=0.50\textwidth]{images/chapter3/relatedworkHadoop.PNG}
       \caption{Hadoop-based system architecture of medical big data warehousing.}
       \label{fig:bigdatarelated}
     \end{figure}
@@ -56,22 +56,61 @@ We present in this section architecture for healthcare data warehouses and solut
 
 \section{Proposed Solution}
 As mentioned in the project description, the presence of a visualization presentation in the medical sector is necessary. The proposed solution was to create a system that organizes the data and structures it, we used for that the eXtensible Markup Language (XML).
+We mainly focused on the "Rendering" step in the visualization pipeline(\ref{fig:infovispipeline}), and we worked on the medical data that are mentioned in the Table\ref{tab:sourceTable}.
 \newpage
+\subsection{Why XML?}
+The rise of XML (eXtensible Markup Language) in patient care has been driven by the needs for communication among health professionals and between healthcare organizations such as hospitals and health insurance companies.The main advantage of XML is its flexibility, as it allows creators to describe any content easily by generating their own tags\cite{thuy2012s}. Some of XML’s features are\cite{achard2001xml}:
+\begin{itemize}
+\item The XML and DTD files are human readable and thus can be easily edited by people with only a few computer skills. Updating a data model is, therefore, straightforward (at least from a technical point of view).
+\item XML is Internet-oriented and has very rich capabilities for linking data; this can be used for interconnecting databases.
+\item XML provides an open framework for defining standard specifications. This is an important point because medical informatics clearly lacks standardization. For example, querying on multiple molecular biology databases could be greatly facilitated if each database would offer an XML view of their content.
+\end{itemize}
+On the other hand, XML has some weaknesses:
+\begin{itemize}
+\item The overhead of a text based format in data parsing, storage and transmission needs to be evaluated before adopting XML as a general solution. However, a text format means that the source code can be read and edited with any text editor.
+\item It is not clear whether XML satisfactorily addresses the problems of technological scalability. Indeed if XML data are stored in flat files, queries on XML files will not scale because XML in itself does not provide scalable facilities such as indexing or data clustering. This means that parsing should be done on the fly which leads to poor performances. One solution could be to have query optimizations done externally for example using a DataBase Management System (DBMS).
+\end{itemize}
+\newpage
+At this point the question to be answered is whether the pros prevail over the cons, for this reason Frederic Achard and al\cite{achard2001xml}  have provided a comparison between XML and some of the most popular solutions that are used for the management and exchange of bioinformatics data summarized in the (Table\ref{tab:xmlcomparaison}), each one is rated with one to four stars for different criteria: the higher the number of stars, the better the solution with regard to the criteria.
+\input{Tables/chapter3/xmlcomparaison.tex}
+\bigbreak
+They conclude that the use of XML as an intermediate medium would be really efficient only if all databases share common or very similar DTDs. Whatever language is used, it is always difficult to find an agreement on a common semantics, and when one is found, it is often revised. However, XML would be an excellent candidate for this role because of its flexibility.
+
+
+
 \subsection{Architecture}
 
 
+
+We focused on extracting the following type of data (each head represents an XML node):
+\begin{itemize}
+\item \textbf{Patient:} That presents the administrative information about the patient x, including his full name, gender, date of birth, address. 
+\item \textbf{Drug:} Presents the list of drugs in the patient’s  prescription, it includes: the drug’s name, its dosage, strength usually mentioned by the doctor, the quantity, and its type(liquid or table).
+\item \textbf{Diagnosis:} Includes the doctor's name, the diseases name, and the observations taken by the medical actor in charge, it also contains the name of the prescribed medications and the date of diagnosis. 
+\item \textbf{LabResults:} It presents the medical biology results that includes the analysis’s name,the patient rate saved, the gender and the age for the comparison (a predefined high/low rate is defined corresponding to each analysis), attached with the laborator name.
+\item \textbf{ImagesData:} Present the data of the image obtained by the patient, it includes the image name and the image itself, the day it was taken, and the patient's national ID number.
+\end{itemize}
 \begin{figure}[h!]
   \center
   \includegraphics[width=0.99\textwidth]{images/chapter3/tree.jpg}
   \caption{The corresponding tree of XML schema.}
   \label{fig:xmlschema}
 \end{figure}
-We focused on the following type of data:
-\begin{itemize}
-\item \textbf{Patient:} That presents the administrative information about the patient x, including his full name, gender, date of birth, address. 
-\item \textbf{Drug:} Presents the list of drugs in the patient’s  prescription, it includes: the drug’s name, its dosage, strength usually mentioned by the doctor, the quantity, and its type(liquid or table).
-\item \textbf{Diagnosis:} Includes the doctor's name, the diagnosis in the form of a text, and the observations taken by the medical actor in charge. 
-\item \textbf{BioResults:} It presents the medical biology results that includes the analysis’s name,the patient rate saved, the gender and the age for the comparison (a predefined high/low rate is defined corresponding to each analysis).
-\item \textbf{ImagesData:} Presents the images data the patient got, it includes the image name and the image itself.
-\end{itemize}
+\newpage
+\subsection{Data Integration \& Processing}
+%TODO: ref to talend in tools
+Our main objective was to create a visualization system for that: we collected medical data from different sources that represent various medical actors, and we process them following the visualization process mentioned before (\ref{fig:infovispipeline}), we used Talend open studio (\ref{sec:talend}) to handle this step.
 
+The resulting data will be used as a source to feed all the components of the digital marketing reporting applications that are built in Tableau Software (\ref{sec:tableau}).
+\begin{figure}[h!]
+  \center
+  \includegraphics[width=0.30\textwidth]{images/chapter3/jobInputs.PNG}
+  \caption{Input data.}
+  \label{fig:jobinputes}
+\end{figure}
+\begin{figure}[h!]
+  \center
+  \includegraphics[width=0.80\textwidth]{images/chapter3/jobresult.PNG}
+  \caption{Talend job execution.}
+  \label{fig:jobtalend}
+\end{figure}
