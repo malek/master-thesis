@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.20)  30 MAY 2022 12:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.20)  30 MAY 2022 12:51
 entering extended mode
 **d:/Workspace/thesisM2/main.tex
 (d:/Workspace/thesisM2/main.tex
@@ -599,7 +599,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./images/intro/sista.PNG>]
-Overfull \hbox (3.84335pt too wide) in paragraph at lines 26--27
+Overfull \hbox (3.84335pt too wide) in paragraph at lines 27--28
 \T1/futs/m/n/12 pro-fes-sions, lo-ca-tions and condi-tions of pa-tients and phy-si-cians. Pa-tients
  []
 
@@ -621,22 +621,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9]
 Chapitre 2.
 
-Overfull \hbox (1.01128pt too wide) in paragraph at lines 8--9
+Overfull \hbox (1.01128pt too wide) in paragraph at lines 9--10
 []\T1/futs/m/n/12 The health pro-fes-sio-nals (phy-si-cians or nurses) : be-long to va-rious health
  []
 
 [10
 
 ]
-<images/chapter1/publication_big_data.PNG, id=338, 443.256pt x 261.97874pt>
+<images/chapter1/publication_big_data.PNG, id=339, 443.256pt x 261.97874pt>
 File: images/chapter1/publication_big_data.PNG Graphic file (type png)
 <use images/chapter1/publication_big_data.PNG>
-Package pdftex.def Info: images/chapter1/publication_big_data.PNG  used on input line 28.
+Package pdftex.def Info: images/chapter1/publication_big_data.PNG  used on input line 29.
 (pdftex.def)             Requested size: 292.5pt x 172.87852pt.
-<images/chapter1/health_publication_bigData.PNG, id=342, 431.81325pt x 296.90926pt>
+<images/chapter1/health_publication_bigData.PNG, id=343, 431.81325pt x 296.90926pt>
 File: images/chapter1/health_publication_bigData.PNG Graphic file (type png)
 <use images/chapter1/health_publication_bigData.PNG>
-Package pdftex.def Info: images/chapter1/health_publication_bigData.PNG  used on input line 39.
+Package pdftex.def Info: images/chapter1/health_publication_bigData.PNG  used on input line 40.
 (pdftex.def)             Requested size: 292.5pt x 201.12996pt.
 
 
@@ -658,12 +658,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./images/chapter1/health_publication_bigData.PNG>]
-Overfull \hbox (6.84337pt too wide) in paragraph at lines 64--65
+Overfull \hbox (6.84337pt too wide) in paragraph at lines 66--67
 []\T1/futs/b/n/12 Administrative data \T1/futs/m/n/12 re-la-ted to pa-tient mo-ve-ments (iden-tity, dates, places,
  []
 
 
-Overfull \hbox (10.33527pt too wide) in paragraph at lines 64--65
+Overfull \hbox (10.33527pt too wide) in paragraph at lines 66--67
 \T1/futs/m/n/12 etc.), de-mo-gra-phic (age, sex, place of re-si-dence, etc.) and in-su-rance (health
  []
 
@@ -708,7 +708,7 @@ Overfull \hbox (25.19998pt too wide) in paragraph at lines 3--24
  []
 
 )
-Overfull \hbox (2.45958pt too wide) in paragraph at lines 108--110
+Overfull \hbox (2.45958pt too wide) in paragraph at lines 110--112
 \T1/futs/m/n/12 of-fices or prac-tices. As-su-ming the soft-ware is com-pa-tible, other of-fices and prac-
  []
 
@@ -720,10 +720,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-<images/chapter1/phr_ehr.PNG, id=403, 729.927pt x 413.1435pt>
+<images/chapter1/phr_ehr.PNG, id=404, 729.927pt x 413.1435pt>
 File: images/chapter1/phr_ehr.PNG Graphic file (type png)
 <use images/chapter1/phr_ehr.PNG>
-Package pdftex.def Info: images/chapter1/phr_ehr.PNG  used on input line 118.
+Package pdftex.def Info: images/chapter1/phr_ehr.PNG  used on input line 120.
 (pdftex.def)             Requested size: 292.5pt x 165.55705pt.
 
 
@@ -759,7 +759,7 @@ Overfull \hbox (4.11545pt too wide) in paragraph at lines 3--4
 \T1/futs/m/n/12 deaths in mi-li-tary hos-pi-tals in Scu-tari ari-sing from the changes she instituted[[]]
  []
 
-<images/chapter2/rose.jpg, id=433, 1636.1125pt x 1027.84pt>
+<images/chapter2/rose.jpg, id=434, 1636.1125pt x 1027.84pt>
 File: images/chapter2/rose.jpg Graphic file (type jpg)
 <use images/chapter2/rose.jpg>
 Package pdftex.def Info: images/chapter2/rose.jpg  used on input line 7.
@@ -767,7 +767,7 @@ Package pdftex.def Info: images/chapter2/rose.jpg  used on input line 7.
 [19
 
  <./images/chapter2/rose.jpg>]
-<images/chapter2/types-of-data-visualization.jpg, id=445, 1156.32pt x 694.09312pt>
+<images/chapter2/types-of-data-visualization.jpg, id=446, 1156.32pt x 694.09312pt>
 File: images/chapter2/types-of-data-visualization.jpg Graphic file (type jpg)
 <use images/chapter2/types-of-data-visualization.jpg>
 Package pdftex.def Info: images/chapter2/types-of-data-visualization.jpg  used on input line 26.
@@ -781,12 +781,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20 <./images/chapter2/types-of-data-visualization.jpg>]
-<images/chapter2/simplepipline.PNG, id=455, 199.34476pt x 283.0575pt>
+<images/chapter2/simplepipline.PNG, id=456, 199.34476pt x 283.0575pt>
 File: images/chapter2/simplepipline.PNG Graphic file (type png)
 <use images/chapter2/simplepipline.PNG>
 Package pdftex.def Info: images/chapter2/simplepipline.PNG  used on input line 37.
 (pdftex.def)             Requested size: 77.99881pt x 110.75046pt.
-<images/chapter2/infoVispipeline.PNG, id=457, 517.935pt x 95.75775pt>
+<images/chapter2/infoVispipeline.PNG, id=458, 517.935pt x 95.75775pt>
 File: images/chapter2/infoVispipeline.PNG Graphic file (type png)
 <use images/chapter2/infoVispipeline.PNG>
 Package pdftex.def Info: images/chapter2/infoVispipeline.PNG  used on input line 48.
@@ -800,7 +800,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21 <./images/chapter2/simplepipline.PNG> <./images/chapter2/infoVispipeline.PNG>]
-Overfull \hbox (0.21552pt too wide) in paragraph at lines 77--78
+Overfull \hbox (0.21552pt too wide) in paragraph at lines 78--79
 \T1/futs/m/n/12 tion to sup-port huge in-for-ma-tion ana-ly-sis and ma-na-ge-ment reporting[[]]. Data
  []
 
@@ -812,7 +812,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-Overfull \hbox (3.45935pt too wide) in paragraph at lines 86--88
+Overfull \hbox (3.45935pt too wide) in paragraph at lines 88--90
 \T1/futs/m/n/12 sing to fil-te-ring till the ren-de-ring step (the steps men-tio-ned in sec-tion[][]3.2[][]).
  []
 
@@ -824,22 +824,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-Overfull \hbox (9.82437pt too wide) in paragraph at lines 98--99
+Overfull \hbox (9.82437pt too wide) in paragraph at lines 100--101
 []\T1/futs/m/n/12 Several ap-proaches have been de-ve-lo-ped de-pen-ding on the in-te-gra-tion needs.
  []
 
 
-Overfull \hbox (1.54626pt too wide) in paragraph at lines 103--104
+Overfull \hbox (1.54626pt too wide) in paragraph at lines 106--107
 []\T1/futs/m/n/12 Data trans-for-ma-tion, which consists of clea-ning and ag-gre-ga-ting data
  []
 
 
-Overfull \hbox (3.6147pt too wide) in paragraph at lines 107--108
+Overfull \hbox (3.6147pt too wide) in paragraph at lines 110--111
 \T1/futs/m/n/12 In the EII ap-proach, no phy-si-cal in-te-gra-tion is per-for-med. He-te-ro-ge-neous
  []
 
 
-Overfull \hbox (0.96338pt too wide) in paragraph at lines 108--110
+Overfull \hbox (0.96338pt too wide) in paragraph at lines 111--113
 \T1/futs/m/n/12 In or-der to connect ap-pli-ca-tions built in dif-ferent en-vi-ron-ments and with
  []
 
@@ -902,7 +902,7 @@ Overfull \hbox (52.39996pt too wide) in paragraph at lines 3--23
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )) (parts/contribution.tex
-Overfull \hbox (1.03157pt too wide) in paragraph at lines 115--1
+Overfull \hbox (1.03157pt too wide) in paragraph at lines 118--1
 \T1/futs/m/n/12 In the next chap-ter, we present our contri-bu-tion ba-sed on the dif-ferent concepts
  []
 
@@ -928,31 +928,31 @@ Overfull \hbox (1.2115pt too wide) in paragraph at lines 15--16
 \T1/futs/m/n/12 tures which could be used by exe-cu-tive ma-na-gers, doc-tors, phy-si-cians and other
  []
 
-<images/chapter3/cancerDiagrame.PNG, id=511, 337.86224pt x 145.14224pt>
+<images/chapter3/cancerDiagrame.PNG, id=512, 337.86224pt x 145.14224pt>
 File: images/chapter3/cancerDiagrame.PNG Graphic file (type png)
 <use images/chapter3/cancerDiagrame.PNG>
-Package pdftex.def Info: images/chapter3/cancerDiagrame.PNG  used on input line 24.
+Package pdftex.def Info: images/chapter3/cancerDiagrame.PNG  used on input line 25.
 (pdftex.def)             Requested size: 292.5pt x 125.66147pt.
 [26
 
 ]
-<images/chapter3/cancersystem.PNG, id=518, 395.076pt x 213.1965pt>
+<images/chapter3/cancersystem.PNG, id=519, 395.076pt x 213.1965pt>
 File: images/chapter3/cancersystem.PNG Graphic file (type png)
 <use images/chapter3/cancersystem.PNG>
-Package pdftex.def Info: images/chapter3/cancersystem.PNG  used on input line 31.
+Package pdftex.def Info: images/chapter3/cancersystem.PNG  used on input line 32.
 (pdftex.def)             Requested size: 292.5pt x 157.8475pt.
 
-Overfull \hbox (1.07825pt too wide) in paragraph at lines 28--35
+Overfull \hbox (1.07825pt too wide) in paragraph at lines 29--36
 []\T1/futs/m/it/12 Architecture De-sign : \T1/futs/m/n/12 Data is im-por-ted from se-ve-ral sources and trans-
  []
 
-<images/chapter3/pharmacysystem.PNG, id=521, 354.72525pt x 257.16075pt>
+<images/chapter3/pharmacysystem.PNG, id=522, 354.72525pt x 257.16075pt>
 File: images/chapter3/pharmacysystem.PNG Graphic file (type png)
 <use images/chapter3/pharmacysystem.PNG>
-Package pdftex.def Info: images/chapter3/pharmacysystem.PNG  used on input line 40.
+Package pdftex.def Info: images/chapter3/pharmacysystem.PNG  used on input line 41.
 (pdftex.def)             Requested size: 292.5pt x 212.05035pt.
 
-Overfull \hbox (5.81142pt too wide) in paragraph at lines 37--44
+Overfull \hbox (5.81142pt too wide) in paragraph at lines 38--45
 []\T1/futs/b/it/12 Data Wa-re-house Fra-me-work in Phar-ma-ceu-ti-cal Sec-tor : \T1/futs/m/n/12 In this paper[[]]
  []
 
@@ -972,10 +972,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28 <./images/chapter3/pharmacysystem.PNG>]
-<images/chapter3/relatedworkHadoop.PNG, id=541, 300.52275pt x 389.0535pt>
+<images/chapter3/relatedworkHadoop.PNG, id=542, 300.52275pt x 389.0535pt>
 File: images/chapter3/relatedworkHadoop.PNG Graphic file (type png)
 <use images/chapter3/relatedworkHadoop.PNG>
-Package pdftex.def Info: images/chapter3/relatedworkHadoop.PNG  used on input line 50.
+Package pdftex.def Info: images/chapter3/relatedworkHadoop.PNG  used on input line 51.
 (pdftex.def)             Requested size: 195.0pt x 252.44841pt.
 
 
@@ -1019,12 +1019,12 @@ Overfull \hbox (13.1109pt too wide) in paragraph at lines 3--34
  []
 
 )
-Overfull \hbox (1.16734pt too wide) in paragraph at lines 89--90
+Overfull \hbox (1.16734pt too wide) in paragraph at lines 93--94
 \T1/futs/m/n/12 ser-va-tions ta-ken by the me-di-cal ac-tor in charge, it also contains the name
  []
 
 
-Overfull \hbox (3.19536pt too wide) in paragraph at lines 90--91
+Overfull \hbox (3.19536pt too wide) in paragraph at lines 94--95
 \T1/futs/m/n/12 com-pa-ri-son (a pre-de-fi-ned high/low rate is de-fi-ned cor-res-pon-ding to each
  []
 
@@ -1036,10 +1036,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-<images/chapter3/tree.jpg, id=563, 809.0225pt x 398.48875pt>
+<images/chapter3/tree.jpg, id=564, 809.0225pt x 398.48875pt>
 File: images/chapter3/tree.jpg Graphic file (type jpg)
 <use images/chapter3/tree.jpg>
-Package pdftex.def Info: images/chapter3/tree.jpg  used on input line 95.
+Package pdftex.def Info: images/chapter3/tree.jpg  used on input line 99.
 (pdftex.def)             Requested size: 386.10214pt x 190.17795pt.
 
 
@@ -1050,15 +1050,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./images/chapter3/tree.jpg>]
-<images/chapter3/jobInputs.PNG, id=570, 266.79675pt x 399.29175pt>
+<images/chapter3/jobInputs.PNG, id=571, 266.79675pt x 399.29175pt>
 File: images/chapter3/jobInputs.PNG Graphic file (type png)
 <use images/chapter3/jobInputs.PNG>
-Package pdftex.def Info: images/chapter3/jobInputs.PNG  used on input line 107.
+Package pdftex.def Info: images/chapter3/jobInputs.PNG  used on input line 111.
 (pdftex.def)             Requested size: 117.00119pt x 175.1101pt.
-<images/chapter3/jobresult.PNG, id=571, 884.103pt x 337.86224pt>
+<images/chapter3/jobresult.PNG, id=572, 884.103pt x 337.86224pt>
 File: images/chapter3/jobresult.PNG Graphic file (type png)
 <use images/chapter3/jobresult.PNG>
-Package pdftex.def Info: images/chapter3/jobresult.PNG  used on input line 113.
+Package pdftex.def Info: images/chapter3/jobresult.PNG  used on input line 117.
 (pdftex.def)             Requested size: 312.00119pt x 119.2279pt.
 ) (parts/Implementation.tex
 
@@ -1070,7 +1070,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [33 <./images/chapter3/jobInputs.PNG> <./images/chapter3/jobresult.PNG>]
 Chapitre 5.
-<images/chapter4/python_pandas.png, id=581, 647.41875pt x 301.8778pt>
+<images/chapter4/python_pandas.png, id=582, 647.41875pt x 301.8778pt>
 File: images/chapter4/python_pandas.png Graphic file (type png)
 <use images/chapter4/python_pandas.png>
 Package pdftex.def Info: images/chapter4/python_pandas.png  used on input line 15.
@@ -1083,10 +1083,10 @@ Underfull \hbox (badness 1242) in paragraph at lines 17--17
 [34
 
  <./images/chapter4/python_pandas.png>]
-<images/chapter4/talendInterface.png, id=597, 470.35725pt x 262.581pt>
+<images/chapter4/talendInterface.png, id=598, 470.35725pt x 262.581pt>
 File: images/chapter4/talendInterface.png Graphic file (type png)
 <use images/chapter4/talendInterface.png>
-Package pdftex.def Info: images/chapter4/talendInterface.png  used on input line 45.
+Package pdftex.def Info: images/chapter4/talendInterface.png  used on input line 46.
 (pdftex.def)             Requested size: 292.5pt x 163.29134pt.
 
 
@@ -1097,28 +1097,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35 <./images/chapter4/talendInterface.png>]
-<images/chapter4/TableauLogo.png, id=606, 289.08pt x 59.9841pt>
+<images/chapter4/TableauLogo.png, id=607, 289.08pt x 59.9841pt>
 File: images/chapter4/TableauLogo.png Graphic file (type png)
 <use images/chapter4/TableauLogo.png>
-Package pdftex.def Info: images/chapter4/TableauLogo.png  used on input line 55.
+Package pdftex.def Info: images/chapter4/TableauLogo.png  used on input line 56.
 (pdftex.def)             Requested size: 292.5pt x 60.69693pt.
 
-Overfull \hbox (0.8844pt too wide) in paragraph at lines 52--59
+Overfull \hbox (0.8844pt too wide) in paragraph at lines 53--60
 []\T1/futs/m/n/12 Tableau is an ex-cellent data vi-sua-li-za-tion and bu-si-ness in-tel-li-gence tool used
  []
 
 
-Overfull \hbox (2.63948pt too wide) in paragraph at lines 52--59
+Overfull \hbox (2.63948pt too wide) in paragraph at lines 53--60
 \T1/futs/m/n/12 charts, graphs, maps, da-sh-boards, and sto-ries for vi-sua-li-zing and ana-ly-zing data,
  []
 
-<images/chapter4/highchart.png, id=608, 541.02126pt x 513.92pt>
+<images/chapter4/highchart.png, id=609, 541.02126pt x 513.92pt>
 File: images/chapter4/highchart.png Graphic file (type png)
 <use images/chapter4/highchart.png>
-Package pdftex.def Info: images/chapter4/highchart.png  used on input line 65.
+Package pdftex.def Info: images/chapter4/highchart.png  used on input line 66.
 (pdftex.def)             Requested size: 97.5pt x 92.61139pt.
 
-Overfull \hbox (0.53627pt too wide) in paragraph at lines 60--69
+Overfull \hbox (0.53627pt too wide) in paragraph at lines 61--70
 []\T1/futs/m/n/12 Highcharts is a soft-ware li-brary for char-ting writ-ten in pure Ja-vaS-cript meant
  []
 
@@ -1130,15 +1130,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36 <./images/chapter4/TableauLogo.png> <./images/chapter4/highchart.png>]
-<images/chapter4/result1.PNG, id=617, 1115.96925pt x 556.479pt>
+<images/chapter4/result1.PNG, id=618, 1115.96925pt x 556.479pt>
 File: images/chapter4/result1.PNG Graphic file (type png)
 <use images/chapter4/result1.PNG>
-Package pdftex.def Info: images/chapter4/result1.PNG  used on input line 78.
+Package pdftex.def Info: images/chapter4/result1.PNG  used on input line 79.
 (pdftex.def)             Requested size: 350.99762pt x 175.02858pt.
-<images/chapter4/result2.PNG, id=618, 1118.9805pt x 569.12625pt>
+<images/chapter4/result2.PNG, id=619, 1118.9805pt x 569.12625pt>
 File: images/chapter4/result2.PNG Graphic file (type png)
 <use images/chapter4/result2.PNG>
-Package pdftex.def Info: images/chapter4/result2.PNG  used on input line 84.
+Package pdftex.def Info: images/chapter4/result2.PNG  used on input line 85.
 (pdftex.def)             Requested size: 350.99762pt x 178.52019pt.
 
 
@@ -1149,10 +1149,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [37 <./images/chapter4/result1.PNG> <./images/chapter4/result2.PNG>]
-<images/chapter4/adminDashboard.PNG, id=626, 872.058pt x 523.9575pt>
+<images/chapter4/adminDashboard.PNG, id=627, 872.058pt x 523.9575pt>
 File: images/chapter4/adminDashboard.PNG Graphic file (type png)
 <use images/chapter4/adminDashboard.PNG>
-Package pdftex.def Info: images/chapter4/adminDashboard.PNG  used on input line 97.
+Package pdftex.def Info: images/chapter4/adminDashboard.PNG  used on input line 99.
 (pdftex.def)             Requested size: 350.99762pt x 210.89046pt.
 
 
@@ -1163,10 +1163,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38 <./images/chapter4/adminDashboard.PNG>]
-<images/chapter4/doctor.PNG, id=633, 832.3095pt x 525.162pt>
+<images/chapter4/doctor.PNG, id=634, 832.3095pt x 525.162pt>
 File: images/chapter4/doctor.PNG Graphic file (type png)
 <use images/chapter4/doctor.PNG>
-Package pdftex.def Info: images/chapter4/doctor.PNG  used on input line 105.
+Package pdftex.def Info: images/chapter4/doctor.PNG  used on input line 107.
 (pdftex.def)             Requested size: 350.99762pt x 221.47205pt.
 ) (parts/conclusion.tex
 
@@ -1298,7 +1298,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  67i,12n,77p,1125b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (47 pages, 3204545 bytes).
+Output written on main.pdf (47 pages, 3205032 bytes).
 PDF statistics:
  728 PDF objects out of 1000 (max. 8388607)
  191 named destinations out of 1000 (max. 500000)
