@@ -1,8 +1,8 @@
-\babel@toc {english}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {english}{}\relax 
 \babel@toc {french}{}\relax 
 \babel@toc {english}{}\relax 
+\babel@toc {french}{}\relax 
+\babel@toc {french}{}\relax 
+\babel@toc {french}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{6}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem \& motivation}{7}{section.1.2}%
@@ -15,14 +15,14 @@
 \contentsline {subsection}{\numberline {2.2.2}Electronic health record}{15}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}The Difference Between EMR \& EHR}{15}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Personal health record}{16}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Security in medical records management}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Security in medical records management}{16}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Conclusion}{18}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Information Visualization (infoVis)}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Definition}{20}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Visualization pipeline}{21}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Data Warehouse Systems}{23}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Data Integration Approaches}{24}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Conclusion}{25}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Conclusion}{24}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Contribution \& Discussion}{26}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Work Objectives}{26}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Literature \& Related works review}{26}{section.4.2}%

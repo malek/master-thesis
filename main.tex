@@ -1,7 +1,7 @@
 \documentclass[12pt, a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{fourier} %for the font
-\usepackage[english]{babel} %To use the csquotes package without warnings
+\usepackage[english,french]{babel} %To use the csquotes package without warnings
 \usepackage[autostyle]{csquotes} %for the quotes -> \enquote{the quote}
 \usepackage{wrapfig} % For using images wrapped inside some text
 \usepackage{graphicx}   % For images 
@@ -38,17 +38,17 @@ pdfkeywords={Visualization; Medical data; Graphical Representation; Modeling; XM
 \lhead{\leftmark}
 
 %%%%%%%%%%%%%%%%%%%%
+\providecommand{\keywords}[1]{\textbf{\textit{Mots clés---}} #1}
+\providecommand{\keywordz}[1]{\textbf{\textit{Keywords---}} #1}
+
 \providecommand{\keywordEN}[1]{\textbf{\textit{Keywords---}} #1}
 
 \providecommand{\keywordFR}[1]{\textbf{\textit{Mots clés---}} #1}
-
-\providecommand{\keywords}[1]{\textbf{\textit{Mots clés---}} #1}
-\providecommand{\keywordz}[1]{\textbf{\textit{Keywords---}} #1}
 %%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
-
+\input{parts/pageTitePage.tex}
 \input{parts/abstract.tex}
 \tableofcontents
 \listoffigures
