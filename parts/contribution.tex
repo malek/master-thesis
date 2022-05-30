@@ -1,4 +1,19 @@
 \chapter{Contribution \& Discussion}
+\renewcommand{\thesection}{\arabic{section}}
+		
+
+
+
+
+\label{chapitre4}
+		
+		\includegraphics [width=1 \linewidth, height=0.8\textheight, keepaspectratio] {images/chaptersFigures/contribution.png}
+		
+	
+		
+    \newpage
+    \thispagestyle{plain}
+
 In this chapter we propose our data warehouse and visualization system for medical data that aims to manage the uncommon data from the various sources using a conventional common language between the different health actors.
 
 
@@ -19,7 +34,7 @@ We present in this section architecture for healthcare data warehouses and solut
   \item \textbf{\textit{A Healthcare Data Warehouse for Cancer Diseases:}} Dr.Osama E.Sheta and Ahmed Nour Eldeen discussed in their paper\cite{shetaBuildingHealthCare2012} the implementation of a healthcare data warehouse for cancer diseases, they proposed  two stages approach for the building cancer data warehouse: 
   
   \begin{enumerate}
-    \item \textit{Business Analysis:} Consist of business process analysis and business requirement analysis (Figure\ref{fig:cancerDiagrame}).
+    \item \textit{Business Analysis:} Consist of business process analysis and business requirement analysis (Figure\ref{fig:cancerDiagrame}). \newpage
     \begin{figure}[h!]
       \center
       \includegraphics[width=0.75\textwidth]{images/chapter3/cancerDiagrame.PNG}
@@ -44,7 +59,7 @@ We present in this section architecture for healthcare data warehouses and solut
     \end{figure}
     
     \item \textbf{\textit{Big Bata Warehouse Based On Hadoop Architecture:}} In this paper\cite{sebaa2018medical} entitled “Medical Big Data Warehouse: Architecture and System Design, a Case Study: Improving Healthcare Resources Distribution” authors proposed a system architecture and a conceptual data model for a MBDW (Medical Big Data Warehouse), and then offer a solution to overcome both the growing of fact table size and the lack of primary and foreign keys in the framework Apache Hive required in the conceptual data model. This solution is based on nested partitioning according to the dimension tables keys, then  applying their solution to implement a MBDW to improve medical resources distribution for the health sector in the Bejaia region (in Algeria). 
-    \newpage
+    \bigbreak
     The overall architecture is depicted in (Figure \ref{fig:bigdatarelated}). It is a scalable, reliable, and distributed architecture to extract, store, analyze, and visualize healthcare data extracted from various resources HIS (Hospitals Information systems).
     \begin{figure}[h!]
       \center
@@ -54,11 +69,11 @@ We present in this section architecture for healthcare data warehouses and solut
     \end{figure}
 \end{itemize}
 
-
+\newpage
 \section{Proposed Solution}
 As mentioned in the project description, the presence of a visualization presentation in the medical sector is necessary. The proposed solution was to create a system that organizes the data and structures it, we used for that the eXtensible Markup Language (XML).
 We mainly focused on the "Rendering" step in the visualization pipeline(\ref{fig:infovispipeline}), and we worked on the medical data that are mentioned in the Table\ref{tab:sourceTable}.
-\newpage
+
 \subsection{Why XML?}
 The rise of XML (eXtensible Markup Language) in patient care has been driven by the needs for communication among health professionals and between healthcare organizations such as hospitals and health insurance companies.The main advantage of XML is its flexibility, as it allows creators to describe any content easily by generating their own tags\cite{thuy2012s}. Some of XML’s features are\cite{achard2001xml}:
 \begin{itemize}
@@ -73,7 +88,7 @@ On the other hand, XML has some weaknesses:
 \item The overhead of a text based format in data parsing, storage and transmission needs to be evaluated before adopting XML as a general solution. However, a text format means that the source code can be read and edited with any text editor.
 \item It is not clear whether XML satisfactorily addresses the problems of technological scalability. Indeed if XML data are stored in flat files, queries on XML files will not scale because XML in itself does not provide scalable facilities such as indexing or data clustering. This means that parsing should be done on the fly which leads to poor performances. One solution could be to have query optimizations done externally for example using a DataBase Management System (DBMS).
 \end{itemize}
-\newpage
+\bigbreak
 At this point the question to be answered is whether the pros prevail over the cons, for this reason Frederic Achard and al\cite{achard2001xml}  have provided a comparison between XML and some of the most popular solutions that are used for the management and exchange of bioinformatics data summarized in the (Table\ref{tab:xmlcomparaison}), each one is rated with one to four stars for different criteria: the higher the number of stars, the better the solution with regard to the criteria.
 \input{Tables/chapter3/xmlcomparaison.tex}
 \bigbreak
