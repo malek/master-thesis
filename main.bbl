@@ -15,6 +15,10 @@ Data {{Analysis}}, {{Visualization}} and {{Interpretation}} | {{MEALD Pro
 \newblock
   https://mealdprostarter.org/n-data-analysis-visualization-and-interpretation/.
 
+\bibitem{DataVisualisationMicrosoft}
+Data {{Visualisation}} | {{Microsoft Power BI}}.
+\newblock https://powerbi.microsoft.com/en-au/.
+
 \bibitem{ElectronicHealthRecords}
 Electronic {{Health Records}} | {{CMS}}.
 \newblock https://www.cms.gov/Medicare/E-Health/EHealthRecords.
@@ -37,6 +41,14 @@ Interactive javascript charts library.
 \bibitem{IntroductionBootstrapV5}
 Introduction {$\cdot$} {{Bootstrap}} v5.0.
 \newblock https://getbootstrap.com/docs/5.0/getting-started/introduction/.
+
+\bibitem{JavaScriptCom}
+{{JavaScript}}.com.
+\newblock https://www.javascript.com/.
+
+\bibitem{KaggleYourHome}
+Kaggle: {{Your Home}} for {{Data Science}}.
+\newblock https://www.kaggle.com/.
 
 \bibitem{KeyMaintainingMedical}
 The {{Key}} to {{Maintaining Medical Records}} | {{Smartsheet}}.
@@ -64,6 +76,11 @@ Python (langage) \textemdash{} {{Wikip\'edia}}.
 Welcome to {{Python}}.org.
 \newblock https://www.python.org/.
 
+\bibitem{WhatCSSLearn}
+What is {{CSS}}? - {{Learn}} web development | {{MDN}}.
+\newblock
+  https://developer.mozilla.org/en-US/docs/Learn/CSS/First\_steps/What\_is\_CSS.
+
 \bibitem{WhatDataFiltering}
 What is {{Data Filtering}}? - {{Displayr}}.
 \newblock https://www.displayr.com/what-is-data-filtering/.
@@ -72,6 +89,11 @@ What is {{Data Filtering}}? - {{Displayr}}.
 What is {{Information Visualization}}?
 \newblock
   https://www.tibco.com/reference-center/what-is-information-visualization.
+
+\bibitem{WhatTableauUltimate}
+What is {{Tableau}}: {{The Ultimate Guide To Know All About Tableau}} in 2021.
+\newblock
+  https://www.simplilearn.com/tutorials/tableau-tutorial/what-is-tableau.
 
 \bibitem{WhatDataAnalysis}
 What {{Is}} the {{Data Analysis Process}}? 5 {{Key Steps}} to {{Follow}}.
@@ -86,8 +108,16 @@ Wheel | {{What}} are {{Electronic Medical Records}}.
 {Pandas}.
 \newblock {\em Wikip\'edia}, June 2020.
 
+\bibitem{CSS2022}
+{{CSS}}.
+\newblock {\em Wikipedia}, May 2022.
+
 \bibitem{DataAnalysis2022}
 Data analysis.
+\newblock {\em Wikipedia}, May 2022.
+
+\bibitem{Kaggle2022}
+Kaggle.
 \newblock {\em Wikipedia}, May 2022.
 
 \bibitem{abd2019proposed}
@@ -230,6 +260,12 @@ Mpho Ngoepe, Lebohang Mokoena, and Patrick Ngulube.
   {{South African}} public sector.
 \newblock {\em ESARBICA Journal: Journal of the Eastern and Southern Africa
   Regional Branch of the International Council on Archives}, 29, March 2011.
+
+\bibitem{robbPowerBIVs2022}
+Drew Robb.
+\newblock Power {{BI}} vs. {{Tableau}}: 2022 {{Software Comparison}}.
+\newblock https://www.eweek.com/big-data-and-analytics/power-bi-vs-tableau/,
+  February 2022.
 
 \bibitem{ruotsalainenCrossplatformModelSecure2004}
 Pekka Ruotsalainen.

@@ -26,17 +26,24 @@
 \contentsline {chapter}{\numberline {4}Contribution \& Discussion}{27}{chapter.4}%
 \contentsline {section}{\numberline {1}Work Objectives}{28}{section.4.1}%
 \contentsline {section}{\numberline {2}Literature \& Related works review}{28}{section.4.2}%
-\contentsline {section}{\numberline {3}Proposed Solution}{31}{section.4.3}%
-\contentsline {subsection}{\numberline {3.1}Why XML?}{31}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {3.2}Architecture}{33}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {3.3}Data Integration \& Processing}{34}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}Implementation}{35}{chapter.5}%
-\contentsline {section}{\numberline {1}Tools}{36}{section.5.1}%
-\contentsline {subsection}{\numberline {1.1}Python}{36}{subsection.5.1.1}%
-\contentsline {paragraph}{Pandas:}{36}{section*.23}%
-\contentsline {subsection}{\numberline {1.2}Talend}{36}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {1.3}Highcharts}{37}{subsection.5.1.3}%
-\contentsline {section}{\numberline {2}Result}{38}{section.5.2}%
-\contentsline {subsection}{\numberline {2.1}Processed Data Result}{38}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {2.2}Dashboards}{39}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Conclusion \& Future work}{41}{chapter.6}%
+\contentsline {section}{\numberline {3}Proposed Solution}{32}{section.4.3}%
+\contentsline {section}{\numberline {4}Why XML?}{32}{section.4.4}%
+\contentsline {section}{\numberline {5}The Proposed System Process}{34}{section.4.5}%
+\contentsline {subsection}{\numberline {5.1}The Data Preparation}{34}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {5.2}Data Rendering}{40}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {5.3}Image Data}{41}{subsection.4.5.3}%
+\contentsline {section}{\numberline {6}Conclusion}{41}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Implementation}{42}{chapter.5}%
+\contentsline {section}{\numberline {1}Tools}{43}{section.5.1}%
+\contentsline {subsection}{\numberline {1.1}Python}{43}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {1.2}Talend}{43}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {1.3}Visualization Tools}{44}{subsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Tableau}{44}{subsubsection.5.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Microsoft Power BI}{45}{subsubsection.5.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Tableau Vs Power BI}{45}{subsubsection.5.1.3.3}%
+\contentsline {subsection}{\numberline {1.4}CSS \& Bootstrap}{46}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {1.5}Javascript \& Highcharts}{47}{subsection.5.1.5}%
+\contentsline {section}{\numberline {2}Result}{47}{section.5.2}%
+\contentsline {subsection}{\numberline {2.1}Processed Data Result}{47}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {2.2}Dashboards}{48}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Conclusion \& Future work}{50}{chapter.6}%
