@@ -8,6 +8,7 @@
 \usepackage{subcaption} % for multiple image captions
 \usepackage{array}      %for tables
 \usepackage[final]{pdfpages} % To Include PDFs
+
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 \title{Medical Structure Visualization}
 \author{Malek Benzerga}
@@ -50,9 +51,13 @@ pdfkeywords={Visualization; Medical data; Graphical Representation; Modeling; XM
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 \newcommand{\comment}[1]{}
+
+\usepackage{csquotes} % for the quotes
+
 \begin{document}
 \includepdf[pages=-]{parts/pagedegarde.pdf}
 \input{parts/pageTitePage.tex}
+\input{parts/acknowledgements.tex}
 \input{parts/abstract.tex}
 \tableofcontents
 \listoffigures

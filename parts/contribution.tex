@@ -14,18 +14,18 @@
     \newpage
     \thispagestyle{plain}
 
-In this chapter we propose our data management and visualization system for medical data that aims to manage the uncommon data from the various sources then provides a personalized dashboard for each actor based on their predefined needs.
+In this chapter, we propose our data management and visualization system for medical data that aims to manage the uncommon data from the various sources then provides a personalized dashboard for each actor based on their predefined needs.
 
 
 
 
 \section{Work Objectives}
-The aim of this work is to propose a system that organizes data coming from different sources then structures it in a way that enables easily to vizualize it in most convenient ways (both useful and easy to read) for each actor. We are interested in the step between Rendering and Data image in the pipeline process(\ref{fig:infovispipeline}). After reviewing and analyzing similar proposed works, we created our own visualization system that will be detailled in the comming sections.
+The aim of this work is to propose a system that organizes data coming from different sources then structures it in a way that enables easily to visualize it in most convenient ways (both useful and easy to read) for each actor. We are interested in the step between Rendering and Data image in the pipeline process(\ref{fig:infovispipeline}). After reviewing and analyzing similar proposed works, we created our own visualization system that will be detailed in the coming sections.
 
 
 
 \section{Literature \& Related works review}
-We present in this section architecture for healthcare data management systems, data warehouses and solutions that attempt to integrate infoVis into medical data and medical structures which could be used by executive managers, doctors, physicians and other health professionals to support the healthcare process.  Medical data existing today in multiple sources with different formats makes it necessary to have certain data integration techniques. A healthcare data warehouse is therefore needed to integrate the different data sources into a central data repository and analyze this data.
+We present in this section architecture for healthcare data management systems, data warehouses and solutions that attempt to integrate infoVis into medical data and medical structures, which could be used by executive managers, doctors, physicians and other health professionals to support the healthcare process.  Medical data existing today in multiple sources with different formats makes it necessary to have certain data integration techniques. A healthcare data warehouse is therefore needed to integrate the different data sources into a central data repository and analyze this data.
 \bigbreak
 
 \begin{itemize}
@@ -88,22 +88,25 @@ On the other hand, XML has some weaknesses:
 \begin{itemize}
 \renewcommand{\labelitemi}{$\bullet$}
 \item The overhead of a text based format in data parsing, storage and transmission needs to be evaluated before adopting XML as a general solution. However, a text format means that the source code can be read and edited with any text editor.
-\item It is not clear whether XML satisfactorily addresses the problems of technological scalability. Indeed if XML data are stored in flat files, queries on XML files will not scale because XML in itself does not provide scalable facilities such as indexing or data clustering. This means that parsing should be done on the fly which leads to poor performances. One solution could be to have query optimizations done externally for example using a DataBase Management System (DBMS).
+\item It is not clear whether XML satisfactorily addresses the problems of technological scalability. Indeed if XML data are stored in flat files, queries on XML files will not scale because XML in itself does not provide scalable facilities such as indexing or data clustering. This means that parsing should be done on the fly which leads to poor performances. One solution could be to have query optimizations done externally for example using a Database Management System (DBMS).
 \end{itemize}
 \bigbreak
 At this point the question to be answered is whether the pros prevail over the cons, for this reason Frederic Achard and al\cite{achard2001xml}  have provided a comparison between XML and some of the most popular solutions that are used for the management and exchange of bioinformatics data summarized in the (Table\ref{tab:xmlcomparaison}), each one is rated with one to four stars for different criteria: the higher the number of stars, the better the solution with regard to the criteria.
 \input{Tables/chapter3/xmlcomparaison.tex}
 \bigbreak
 They conclude that the use of XML as an intermediate medium would be really efficient only if all databases share common or very similar DTDs. Whatever language is used, it is always difficult to find an agreement on a common semantics, and when one is found, it is often revised. However, XML would be an excellent candidate for this role because of its flexibility.
+
 \newpage
+
 \section{The Proposed System Process}
-Our system process is divided into three main phases as illustrated in the following figure.In this part, we will explain in detail the steps of each phase. 
+Our system process is divided into three main phases as illustrated in the following figure. In this part, we will explain in detail the steps of each phase. 
 \begin{figure}[h!]
   \center
   \includegraphics[width=0.20\textwidth]{images/chapter3/systemProcesss.png}
   \caption{The proposed system architecture.}
   \label{fig:system}
 \end{figure}
+
 \subsection{The Data Preparation}
 It consists of 4 stages: The Data Collection, pretreatment, Data Integration \& Treatment, and output data as illustrated in the following figure. 
 \begin{figure}[h!]
@@ -112,6 +115,7 @@ It consists of 4 stages: The Data Collection, pretreatment, Data Integration \& 
   \caption{The Data preparation flowchart.}
   \label{fig:dataprep}
 \end{figure}
+
 \subsubsection*{The Data Collection}
 The datasets chosen for this work come from kaggle\cite{KaggleYourHome}. Kaggle is an online community of data scientists and machine learning practitioners\cite{Kaggle2022}, it enables users to find and publish datasets, explore and build models in a data science environment based on the web, etc.\\
 For the purposes of the creation process, we collected the following data (each is between 100K and 240K line) in csv format:
@@ -135,7 +139,7 @@ For the purposes of the creation process, we collected the following data (each 
   \end{figure}
   \item We have collected a collection of x-ray images and other images type.
   \newpage
-  \item \textbf{Liver Patient Records Dataset:} This data set contains liver and non liver patient records collected from North East of Andhra Pradesh, India. The dataset contains the age and the gender of the patient, Total Bilirubin, Direct Bilirubin, Alkaline Phosphatase and others (Figure\ref{fig:liver}).
+  \item \textbf{Liver Patient Records Dataset:} This data set contains liver and non-liver patient records collected from North East of Andhra Pradesh, India. The dataset contains the age and the gender of the patient, Total Bilirubin, Direct Bilirubin, Alkaline Phosphatase and others (Figure\ref{fig:liver}).
   \begin{figure}[h!]
     \center
     \includegraphics[width=0.65\textwidth]{images/chapter3/dataset/indianliver.PNG}
@@ -226,8 +230,8 @@ Our main objective was to extract the following data (each head represents an XM
 \renewcommand{\labelitemi}{$\bullet$}
 \item \textbf{Patient:} That presents the administrative information about the patient x, including his full name, national ID, gender, date of birth, address. 
 \item \textbf{Drug:} Presents the list of drugs in the patient’s  prescription, it includes: the drug’s name, its dosage, strength usually mentioned by the doctor, the quantity, and its type(liquid or table).
-\item \textbf{Diagnosis:} Includes the doctor's name, the diseases name, and the observations taken by the medical actor in charge, it also contains the patinet's national ID, the name of the prescribed medications and the date of diagnosis. 
-\item \textbf{LabResults:} It presents the medical biology results that includes the analysis’s name,the patient rate saved, the gender and the age for the comparison (a predefined high/low rate is defined corresponding to each analysis), attached with the laborator name and the patient's national ID.
+\item \textbf{Diagnosis:} Includes the doctor's name, the diseases name, and the observations taken by the medical actor in charge, it also contains the patient’s national ID, the name of the prescribed medications and the date of diagnosis. 
+\item \textbf{LabResults:} It presents the medical biology results that includes the analysis’s name, the patient rate saved, the gender and the age for the comparison (a predefined high/low rate is defined corresponding to each analysis), attached with the laboratory name and the patient's national ID.
 \item \textbf{ImagesData:} Present the data of the image obtained by the patient, it includes the image name and the image itself, the day it was taken, and the patient's national ID.
 \end{itemize}
 
@@ -276,7 +280,7 @@ Depending on the libraries we integrated in this project, we used different type
 \begin{itemize}
   \renewcommand{\labelitemi}{$\bullet$}
   \item To express comparison between parts of a bigger set of data, highlighting different categories, or showing change over time, we used: bar charts type.
-  \item To show relative proportions and percentages of a whole dataset or to compare the effect of ONE factor on different categories or to express nominal and not ordinal data, we used:pie charts type . 
+  \item To show relative proportions and percentages of a whole dataset or to compare the effect of ONE factor on different categories or to express nominal and not ordinal data, we used: pie charts type. 
   \item To express a continuous dataset that changes over time or to display multiple series for the same timeline or to visualize trends instead of exact values, we used: line charts type.
 \item To show correlation and clustering in big datasets or the dataset containing points that have a pair of values, we used: Scatter Plot type.
 \end{itemize}
@@ -307,7 +311,7 @@ Depending on the libraries we integrated in this project, we used different type
 \end{figure}
 \newpage
 \subsection{Image Data}
-The rendering data produced from the previous phase will be displayed in  personlized dashboard in the next chapter.
+The rendering data produced from the previous phase will be displayed in  personalized dashboard in the next chapter.
 %TODO: add ref to the chapter
 \section{Conclusion}
-In this chapter, we presented the proposed system process which goes through three phases: data preparation, data rendering, Image data. The data preparation phase consists of choosing the row data and pretreating it then integrating it. The data rendering phase consists of analyze the output data to display it in the last next phase,  this phase consists of three stages:  Patient Data file retrieval (XML), Read User’s role and preferences, then Generate Visualization use cases , and lastly the image data phase that will be explained in the next chapter. 
+In this chapter, we presented the proposed system process, which goes through three phases: data preparation, data rendering, Image data. The data preparation phase consists of choosing the row data and pretreating it then integrating it. The data rendering phase consists of analyze the output data to display it in the last next phase,  this phase consists of three stages:  Patient Data file retrieval (XML), Read User’s role and preferences, then Generate Visualization use cases , and lastly the image data phase that will be explained in the next chapter. 

@@ -41,51 +41,52 @@ Warning--empty journal in alrehielyEvaluatingDifferentVisualization
 Warning--empty year in alrehielyEvaluatingDifferentVisualization
 Warning--empty publisher in belsisPervasiveSecureElectronic2005
 Warning--empty booktitle in emmanuelchazardReutilisationFouilleDonnees2017
+Warning--empty publisher in hynekAutomaticEvaluationInformation2015
 Warning--empty journal in martigneneVisualisationUnifieeDonnees
 Warning--empty year in martigneneVisualisationUnifieeDonnees
 Warning--empty journal in mehdiPfe
 Warning--empty publisher in teleaDataVisualizationPrinciples2008
 Warning--empty journal in wahDevelopmentDataWarehouse2009
 Warning--can't use both author and editor fields in Zillner2016
-You've used 65 entries,
+You've used 66 entries,
             2118 wiz_defined-function locations,
-            856 strings with 15664 characters,
-and the built_in function-call counts, 16900 in all, are:
-= -- 1632
-> -- 624
+            861 strings with 15838 characters,
+and the built_in function-call counts, 17154 in all, are:
+= -- 1653
+> -- 637
 < -- 8
-+ -- 275
-- -- 200
-* -- 1088
-:= -- 2574
-add.period$ -- 166
-call.type$ -- 65
-change.case$ -- 289
++ -- 280
+- -- 204
+* -- 1104
+:= -- 2617
+add.period$ -- 169
+call.type$ -- 66
+change.case$ -- 293
 chr.to.int$ -- 0
-cite$ -- 107
-duplicate$ -- 671
-empty$ -- 1565
-format.name$ -- 200
-if$ -- 3646
+cite$ -- 109
+duplicate$ -- 683
+empty$ -- 1587
+format.name$ -- 204
+if$ -- 3698
 int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 47
-newline$ -- 298
-num.names$ -- 74
-pop$ -- 423
+int.to.str$ -- 66
+missing$ -- 49
+newline$ -- 303
+num.names$ -- 76
+pop$ -- 433
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 234
 quote$ -- 0
-skip$ -- 544
+skip$ -- 551
 stack$ -- 0
-substring$ -- 908
-swap$ -- 113
+substring$ -- 913
+swap$ -- 114
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 246
-warning$ -- 42
-while$ -- 128
-width$ -- 67
-write$ -- 596
-(There were 42 warnings)
+type$ -- 248
+warning$ -- 43
+while$ -- 130
+width$ -- 68
+write$ -- 605
+(There were 43 warnings)
