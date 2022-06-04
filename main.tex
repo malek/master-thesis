@@ -7,6 +7,7 @@
 \usepackage{graphicx}   % For images 
 \usepackage{subcaption} % for multiple image captions
 \usepackage{array}      %for tables
+\usepackage[final]{pdfpages} % To Include PDFs
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 \title{Medical Structure Visualization}
 \author{Malek Benzerga}
@@ -28,8 +29,9 @@
 pdftitle={VISUALIZATION OF HEALTH DATA IN A MEDICAL SECTOR},
 pdfsubject={Master Graduation Project},
 pdfauthor={Benzerga Malek kheira},
-pdfkeywords={Visualization; Medical data; Graphical Representation; Modeling; XML}
+pdfkeywords={Visualization; Medical data; Graphical Representation; Modeling; XML; Personalized DashboardL}
 }
+
 
 %		Header		%		
 \usepackage{fancyhdr}
@@ -49,6 +51,7 @@ pdfkeywords={Visualization; Medical data; Graphical Representation; Modeling; XM
 \setcounter{secnumdepth}{4}
 \newcommand{\comment}[1]{}
 \begin{document}
+\includepdf[pages=-]{parts/pagedegarde.pdf}
 \input{parts/pageTitePage.tex}
 \input{parts/abstract.tex}
 \tableofcontents

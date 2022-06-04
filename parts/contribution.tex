@@ -14,18 +14,18 @@
     \newpage
     \thispagestyle{plain}
 
-In this chapter we propose our data warehouse and visualization system for medical data that aims to manage the uncommon data from the various sources using a conventional common language between the different health actors.
+In this chapter we propose our data management and visualization system for medical data that aims to manage the uncommon data from the various sources then provides a personalized dashboard for each actor based on their predefined needs.
 
 
 
 
 \section{Work Objectives}
-The aim of this work is to propose a system that organizes data coming from different sources by producing a common language. We are interested in the step between Rendering and Data image in the pipeline process(\ref{fig:infovispipeline}). After reviewing and analyzing similar proposed works, we created our own visualization system for medical data in a conventional common language.
+The aim of this work is to propose a system that organizes data coming from different sources then structures it in a way that enables easily to vizualize it in most convenient ways (both useful and easy to read) for each actor. We are interested in the step between Rendering and Data image in the pipeline process(\ref{fig:infovispipeline}). After reviewing and analyzing similar proposed works, we created our own visualization system that will be detailled in the comming sections.
 
 
 
 \section{Literature \& Related works review}
-We present in this section architecture for healthcare data warehouses and solutions that attempt to integrate infoVis into medical data and medical structures which could be used by executive managers, doctors, physicians and other health professionals to support the healthcare process.  Medical data existing today in multiple sources with different formats makes it necessary to have certain data integration techniques. A healthcare data warehouse is therefore needed to integrate the different data sources into a central data repository and analyze this data.
+We present in this section architecture for healthcare data management systems, data warehouses and solutions that attempt to integrate infoVis into medical data and medical structures which could be used by executive managers, doctors, physicians and other health professionals to support the healthcare process.  Medical data existing today in multiple sources with different formats makes it necessary to have certain data integration techniques. A healthcare data warehouse is therefore needed to integrate the different data sources into a central data repository and analyze this data.
 \bigbreak
 
 \begin{itemize}
@@ -72,8 +72,9 @@ We present in this section architecture for healthcare data warehouses and solut
 
 \newpage
 \section{Proposed Solution}
-As mentioned in the project description, the presence of a visualization presentation in the medical sector is necessary. The proposed solution was to create a system that organizes and structures the data, then produces focus data in the eXtensible Markup Language (XML) format.\\
+As mentioned in the project description, the presence of a visualization presentation in the medical sector is necessary. The proposed solution was to create a data management and visualization system that organizes and structures the data coming from various sources, then produces focus data in the eXtensible Markup Language (XML) format, this focus data will be visualized based on each actor and their preferend needs.\\
 We mainly focused on the "Rendering" step in the visualization pipeline(\ref{fig:infovispipeline}), and we worked on the medical data type that are mentioned in the Table\ref{tab:sourceTable}.
+
 
 \section{Why XML?}
 The rise of XML (eXtensible Markup Language) in patient care has been driven by the needs for communication among health professionals and between healthcare organizations such as hospitals and health insurance companies.The main advantage of XML is its flexibility, as it allows creators to describe any content easily by generating their own tags\cite{thuy2012s}. Some of XML’s features are\cite{achard2001xml}:
@@ -198,7 +199,7 @@ We wanted to present the entered data as if it comes from several medical actors
 \subsubsection*{Data Integration \& Treatment}
 
 
-After the data was collected and pre-processed, we integrated it using Talend open studio (\ref{sec:talend}), the input data was the pretreated data we introduced it in the previous section, each entry represent an actor (a source), we used Talend tmap component to build our output data.
+After the data was collected and pre-processed, we integrated it using Talend open studio (\ref{sec:talend}), the input data was the pretreated data we introduced it in the previous section, each entry represent an medical source, we used Talend tmap component to build our output data.
 
 \begin{figure}[h!]
   \center
@@ -245,7 +246,7 @@ Once the xml output data is prepared, the data rendering phase is started, it co
 \end{figure}
 
 \subsubsection*{Patient Data file retrieval (XML)}
-This step consists of integrating the XML files into the visualization script. In our testing process, we generated 4 files that revolve around the patient record and integrated them:
+This step consists of integrating the XML files into the visualization script. In our project process, we generated 4 files that revolve around the patient record and integrated them:
 \begin{itemize}
   \renewcommand{\labelitemi}{$\bullet$}
   \item \textbf{patient.xml: }Contains patient information.
@@ -255,18 +256,31 @@ This step consists of integrating the XML files into the visualization script. I
 \end{itemize}
 
 \subsubsection*{Read User's role and preferences}
-This step consists of analyzing the role of the user in order to display the appropriate visualization graphs. For this project, we have created three predefined users: the patient, the doctor, and the administrator.\\
-each one has his own preferences \\
-nzid nahki 3la preferences ta3 each one
+This step consists of analyzing the user's role and need in order to display the appropriate visualization graphs. For this project, we have created three predefined users: the patient, the doctor, and the administrator, each one has his own preferences.\\
+The data will be displayed according to that.
+\newpage
 \subsubsection*{Generate Visualization use cases}
-For teh purpose of generating the appropriate graphs we needed to analyze the input data usually depends on the properties and type of data, the questions to be answered, and how the information should be presented.\\
-Depending on the libraries we integrated in this project, we used different graphs to present the quantitative data each is base on the data type and the frequent questions asked from our point of view.
+For the purpose of generating the appropriate graphs we needed to go through several analyzing steps:
+\begin{itemize}
+\renewcommand{\labelitemi}{$\bullet$}
+\item Analyzing the input data usually depends on the data properties.
+\item Analyzing the data type (quantitative (continuous or Discrete quantitative) or qualitative (ordinal or nominal)).
+\item The questions to be answered.
+\item How the information should be presented.
+\item The size of the dataset.
+\item And the audience (actors).
+\end{itemize}
+
+\bigbreak
+Depending on the libraries we integrated in this project, we used different types of graphs to present the quantitative data, each based on the factor mentioned previously and the frequent questions asked from our point of view.
 \begin{itemize}
   \renewcommand{\labelitemi}{$\bullet$}
-  \item To express the correlation between two variables we used: scatter plots.
-  \item For the time data we used: line charts, and highlight tables.
-  \item To express the discrete items we used:  bar charts, line charts and Pie charts.
+  \item To express comparison between parts of a bigger set of data, highlighting different categories, or showing change over time, we used: bar charts type.
+  \item To show relative proportions and percentages of a whole dataset or to compare the effect of ONE factor on different categories or to express nominal and not ordinal data, we used:pie charts type . 
+  \item To express a continuous dataset that changes over time or to display multiple series for the same timeline or to visualize trends instead of exact values, we used: line charts type.
+\item To show correlation and clustering in big datasets or the dataset containing points that have a pair of values, we used: Scatter Plot type.
 \end{itemize}
+
 
 \begin{figure}[h!]
   \begin{subfigure}{.50\textwidth}
@@ -291,8 +305,9 @@ Depending on the libraries we integrated in this project, we used different grap
   \end{subfigure}
   \caption{The different used charts.}
 \end{figure}
-
+\newpage
 \subsection{Image Data}
-The rendering data produced from the previous phase will be displayed in  personlized dashboard bla blabal  
+The rendering data produced from the previous phase will be displayed in  personlized dashboard in the next chapter.
+%TODO: add ref to the chapter
 \section{Conclusion}
 In this chapter, we presented the proposed system process which goes through three phases: data preparation, data rendering, Image data. The data preparation phase consists of choosing the row data and pretreating it then integrating it. The data rendering phase consists of analyze the output data to display it in the last next phase,  this phase consists of three stages:  Patient Data file retrieval (XML), Read User’s role and preferences, then Generate Visualization use cases , and lastly the image data phase that will be explained in the next chapter. 

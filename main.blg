@@ -39,7 +39,6 @@ Warning--empty author in DataAnalysis2022
 Warning--empty author in Kaggle2022
 Warning--empty journal in alrehielyEvaluatingDifferentVisualization
 Warning--empty year in alrehielyEvaluatingDifferentVisualization
-Warning--empty journal in naitEntropot
 Warning--empty publisher in belsisPervasiveSecureElectronic2005
 Warning--empty booktitle in emmanuelchazardReutilisationFouilleDonnees2017
 Warning--empty journal in martigneneVisualisationUnifieeDonnees
@@ -50,43 +49,43 @@ Warning--empty journal in wahDevelopmentDataWarehouse2009
 Warning--can't use both author and editor fields in Zillner2016
 You've used 65 entries,
             2118 wiz_defined-function locations,
-            855 strings with 15658 characters,
-and the built_in function-call counts, 16855 in all, are:
-= -- 1628
+            856 strings with 15664 characters,
+and the built_in function-call counts, 16900 in all, are:
+= -- 1632
 > -- 624
 < -- 8
 + -- 275
 - -- 200
-* -- 1087
-:= -- 2571
+* -- 1088
+:= -- 2574
 add.period$ -- 166
 call.type$ -- 65
-change.case$ -- 290
+change.case$ -- 289
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 667
-empty$ -- 1557
+cite$ -- 107
+duplicate$ -- 671
+empty$ -- 1565
 format.name$ -- 200
-if$ -- 3631
+if$ -- 3646
 int.to.chr$ -- 0
 int.to.str$ -- 65
-missing$ -- 46
+missing$ -- 47
 newline$ -- 298
 num.names$ -- 74
-pop$ -- 420
+pop$ -- 423
 preamble$ -- 1
 purify$ -- 230
 quote$ -- 0
-skip$ -- 542
+skip$ -- 544
 stack$ -- 0
-substring$ -- 903
-swap$ -- 110
+substring$ -- 908
+swap$ -- 113
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 248
-warning$ -- 43
+type$ -- 246
+warning$ -- 42
 while$ -- 128
 width$ -- 67
-write$ -- 595
-(There were 43 warnings)
+write$ -- 596
+(There were 42 warnings)
