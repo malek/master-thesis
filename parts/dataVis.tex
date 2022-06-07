@@ -1,9 +1,4 @@
-\chapter{Information Visualization -infoVis-}
-\renewcommand{\thesection}{\arabic{section}}
-		
-
-
-
+\chapter{Information Visualization (infoVis)}
 
 \label{chapitre3}
 		
@@ -108,7 +103,7 @@ There are three major areas in the data warehouse architecture as following:
 
 
 \section{Data Integration Approaches} 
-Data integration is the most tedious and time-consuming step in setting up a decision-making information system. During this step, the data is transformed and filtered to represent a homogeneous, common and stable source of information. The performance of the SID is closely linked to the quality of data integration. It should be noted that the data integration step is not limited to the decision-making domain. It is more general and can be applied for different needs: bringing together and requesting several operational information systems, communicating applications that have been made in silos (independently of each other), etc.
+Data integration is the most tedious and time-consuming step in setting up a decision-making information system. During this step, the data is transformed and filtered to represent a homogeneous, common and stable source of information. The performance of the \gls{sid} is closely linked to the quality of data integration. It should be noted that the data integration step is not limited to the decision-making domain. It is more general and can be applied for different needs: bringing together and requesting several operational information systems, communicating applications that have been made in silos (independently of each other), etc.
  
 Several approaches have been developed depending on the integration needs. We present the most used approaches\cite{naitEntropot}:
 \begin{itemize}
@@ -121,12 +116,12 @@ Several approaches have been developed depending on the integration needs. We pr
 \end{itemize}
 
   \item \textbf{\textit{Enterprise Information Integration(EII):}}\newline In the EII approach, no physical integration is performed. Heterogeneous data sources are consolidated using a virtual database, transparent to applications using the data. The virtual database provides a unified view of data. Users send their request directly to the database. The query is then broken down into sub-queries that will be sent to the respective sources. The answers are assembled into a final result.
-  \item \textbf{\textit{Enterprise Application Integration(EAI):}}\newline In order to connect applications built in different environments and with different technologies, the EAI approach is based on application integration and sharing of their data using web services (SOA architecture). This approach allows for real-time communication.
+  \item \textbf{\textit{Enterprise Application Integration(EAI):}}\newline In order to connect applications built in different environments and with different technologies, the EAI approach is based on application integration and sharing of their data using web services (\gls{soa} architecture). This approach allows for real-time communication.
 It is also used to feed data warehouses. This approach does not replace ETL.
 \end{itemize}
 
 \input{Tables/chapter2/Integration_Approaches_comparaison.tex}
-
+\newpage
 \section{Conclusion}
 In this chapter, we went through the definition of Information visualization, presenting the visualization pipeline process, and then moving to the data warehouse and its different data integration approaches.\\
 In the next chapter, we present our contribution based on the different concepts we have already seen in the previous chapters.

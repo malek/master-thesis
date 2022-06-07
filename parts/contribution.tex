@@ -1,5 +1,5 @@
 \chapter{Contribution \& Discussion}
-\renewcommand{\thesection}{\arabic{section}}
+
 		
 
 
@@ -20,7 +20,7 @@ In this chapter, we propose our data management and visualization system for med
 
 
 \section{Work Objectives}
-The aim of this work is to propose a system that organizes data coming from different sources then structures it in a way that enables easily to visualize it in most convenient ways (both useful and easy to read) for each actor. We are interested in the step between Rendering and Data image in the pipeline process(\ref{fig:infovispipeline}). After reviewing and analyzing similar proposed works, we created our own visualization system that will be detailed in the coming sections.
+The aim of this work is to propose a system that organizes data coming from different sources then structures it in a way that easily enables us (or any program) to visualize it in most convenient ways (both useful and easy to read) for each actor. We are interested in the step between Rendering and Data image in the pipeline process(\ref{fig:infovispipeline}). After reviewing and analyzing similar proposed works, we created our own visualization system that will be detailed in the coming sections.
 
 
 
@@ -50,7 +50,7 @@ We present in this section architecture for healthcare data management systems, 
     \end{figure}
     \end{enumerate}
     \newpage
-    \item \textbf{\textit{Data Warehouse Framework in Pharmaceutical Sector:}} In this paper\cite{abd2019proposed} authors proposed a data warehouse framework to enhance decisions of distribution systems in pharmaceutical companies to decrease the medicine industry cost and increase productivity. The framework can be described in four phases shown in (Figure \ref{fig:pharmacysystem}). Phase one consists of a data preparation, a phase which has four steps (data collection, building DBs, DWH and data cleaning). Phase two consists of training the data which is applying time series to three types of Neural Networks techniques (levenberg marquardt, Bayesian regularized, and Scaled conjugate gradient). Phase three is testing the performance based on mean square error (MSE). Phase four consists of evaluating the performance of the best prediction model.
+    \item \textbf{\textit{Data Warehouse Framework in Pharmaceutical Sector:}} In this paper\cite{abd2019proposed} authors proposed a data warehouse framework to enhance decisions of distribution systems in pharmaceutical companies to decrease the medicine industry cost and increase productivity. The framework can be described in four phases shown in (Figure \ref{fig:pharmacysystem}). Phase one consists of a data preparation, a phase which has four steps (data collection, building \gls{db}s, \gls{dwh} and data cleaning). Phase two consists of training the data which is applying time series to three types of Neural Networks techniques (levenberg marquardt, Bayesian regularized, and Scaled conjugate gradient). Phase three is testing the performance based on mean square error (MSE). Phase four consists of evaluating the performance of the best prediction model.
     \begin{figure}[h!]
       \center
       \includegraphics[width=0.80\textwidth]{images/chapter3/relatedwork/pharmacysystem.PNG}
@@ -77,10 +77,10 @@ We mainly focused on the "Rendering" step in the visualization pipeline(\ref{fig
 
 
 \section{Why XML?}
-The rise of XML (eXtensible Markup Language) in patient care has been driven by the needs for communication among health professionals and between healthcare organizations such as hospitals and health insurance companies.The main advantage of XML is its flexibility, as it allows creators to describe any content easily by generating their own tags\cite{thuy2012s}. Some of XML’s features are\cite{achard2001xml}:
+The rise of XML (eXtensible Markup Language) in patient care has been driven by the needs for communication among health professionals and between healthcare organizations such as hospitals and health insurance companies. The main advantage of XML is its flexibility, as it allows creators to describe any content easily by generating their own tags\cite{thuy2012s}. Some of XML’s features are\cite{achard2001xml}:
 \begin{itemize}
 \renewcommand{\labelitemi}{$\bullet$}
-\item The XML and DTD files are human readable and thus can be easily edited by people with only a few computer skills. Updating a data model is, therefore, straightforward (at least from a technical point of view).
+\item The XML and DTD (Document Type Definition) files are human readable and thus can be easily edited by people with only a few computer skills. Updating a data model is, therefore, straightforward (at least from a technical point of view).
 \item XML is Internet-oriented and has very rich capabilities for linking data; this can be used for interconnecting databases.
 \item XML provides an open framework for defining standard specifications. This is an important point because medical informatics clearly lacks standardization. For example, querying on multiple molecular biology databases could be greatly facilitated if each database would offer an XML view of their content.
 \end{itemize}
@@ -137,7 +137,7 @@ For the purposes of the creation process, we collected the following data (each 
     \caption{A sample of Health Prescription dataset.}
     \label{fig:presc}
   \end{figure}
-  \item We have collected a collection of x-ray images and other images type.
+  \item \textbf{Images Data:} We have collected a collection of x-ray images and other images type.
   \newpage
   \item \textbf{Liver Patient Records Dataset:} This data set contains liver and non-liver patient records collected from North East of Andhra Pradesh, India. The dataset contains the age and the gender of the patient, Total Bilirubin, Direct Bilirubin, Alkaline Phosphatase and others (Figure\ref{fig:liver}).
   \begin{figure}[h!]
@@ -153,16 +153,17 @@ For the purposes of the creation process, we collected the following data (each 
     \caption{A sample of Disease Symptom Prediction dataset.}
     \label{fig:simptoms}
   \end{figure}
+  
   \item \textbf{Patient Treatment Classification:} This dataset is Electronic Health Record Predicting collected from a private Hospital in Indonesia. It contains the patient's laboratory test results: name, data type, value sample, description (Figure\ref{fig:treat}).
   \begin{figure}[h!]
     \center
-    \includegraphics[width=0.65\textwidth]{images/chapter3/dataset/treat.PNG}
+    \includegraphics[width=0.60\textwidth]{images/chapter3/dataset/treat.PNG}
     \caption{A sample of Patient Treatment Classification dataset.}
     \label{fig:treat}
   \end{figure}
   
   \end{itemize}
-  
+  \newpage
 \subsubsection*{Pretreatment}
 We wanted to present the entered data as if it comes from several medical actors, for this we created a fake data based on the dataset collected before, using python libraries (\ref{sec:python}) to present the patients information, their lab test results, their diagnosis etc.
 
@@ -240,7 +241,7 @@ The resulting data will be used as a source to feed all the components of the di
 
 \subsection{Data Rendering}
 
-Once the xml output data is prepared, the data rendering phase is started, it consists of 3 stages as illustrated in the following figure:
+Once the xml output data is prepared, the data rendering phase starts, it consists of 3 stages as illustrated in the following figure:
 
 \begin{figure}[h!]
   \center
@@ -258,18 +259,18 @@ This step consists of integrating the XML files into the visualization script. I
   \item \textbf{drug.xml: }Contains the drugs prescribed to the patient.
   \item \textbf{labResults.xml: }Contains patient lab test results.
 \end{itemize}
-
+We have chosen to split into 4 separate files to be able to introduce the concept of security and permission, where some files can only be retrieved by authorized users.
 \subsubsection*{Read User's role and preferences}
-This step consists of analyzing the user's role and need in order to display the appropriate visualization graphs. For this project, we have created three predefined users: the patient, the doctor, and the administrator, each one has his own preferences.\\
+This step consists of analyzing the user's role and needs in order to display the appropriate visualization graphs. For this project, we have created three predefined users: the patient, the doctor, and the administrator, each one has his own preferences.\\
 The data will be displayed according to that.
-\newpage
+
 \subsubsection*{Generate Visualization use cases}
 For the purpose of generating the appropriate graphs we needed to go through several analyzing steps:
 \begin{itemize}
 \renewcommand{\labelitemi}{$\bullet$}
 \item Analyzing the input data usually depends on the data properties.
 \item Analyzing the data type (quantitative (continuous or Discrete quantitative) or qualitative (ordinal or nominal)).
-\item The questions to be answered.
+\item The questions that need to be answered.
 \item How the information should be presented.
 \item The size of the dataset.
 \item And the audience (actors).
@@ -279,10 +280,10 @@ For the purpose of generating the appropriate graphs we needed to go through sev
 Depending on the libraries we integrated in this project, we used different types of graphs to present the quantitative data, each based on the factor mentioned previously and the frequent questions asked from our point of view.
 \begin{itemize}
   \renewcommand{\labelitemi}{$\bullet$}
-  \item To express comparison between parts of a bigger set of data, highlighting different categories, or showing change over time, we used: bar charts type.
-  \item To show relative proportions and percentages of a whole dataset or to compare the effect of ONE factor on different categories or to express nominal and not ordinal data, we used: pie charts type. 
-  \item To express a continuous dataset that changes over time or to display multiple series for the same timeline or to visualize trends instead of exact values, we used: line charts type.
-\item To show correlation and clustering in big datasets or the dataset containing points that have a pair of values, we used: Scatter Plot type.
+  \item To express comparison between parts of a bigger set of data, highlighting different categories, or showing change over time, we used bar charts type.
+  \item To show relative proportions and percentages of a whole dataset or to compare the effect of ONE factor on different categories or to express nominal and not ordinal data, we used pie charts type. 
+  \item To express a continuous dataset that changes over time or to display multiple series for the same timeline or to visualize trends instead of exact values, we used line charts type.
+\item To show correlation and clustering in big datasets or the dataset containing points that have a pair of values, we used Scatter Plot type.
 \end{itemize}
 
 
@@ -311,7 +312,7 @@ Depending on the libraries we integrated in this project, we used different type
 \end{figure}
 \newpage
 \subsection{Image Data}
-The rendering data produced from the previous phase will be displayed in  personalized dashboard in the next chapter.
-%TODO: add ref to the chapter
+The rendering data produced from the previous phase will be displayed in our personalized dashboard application, presented in the next chapter.
+
 \section{Conclusion}
-In this chapter, we presented the proposed system process, which goes through three phases: data preparation, data rendering, Image data. The data preparation phase consists of choosing the row data and pretreating it then integrating it. The data rendering phase consists of analyze the output data to display it in the last next phase,  this phase consists of three stages:  Patient Data file retrieval (XML), Read User’s role and preferences, then Generate Visualization use cases , and lastly the image data phase that will be explained in the next chapter. 
+In this chapter, we presented our proposed system process, which goes through three phases: data preparation, data rendering, and image data. The data preparation phase consists of choosing the row data and pretreating it then integrating it. The data rendering phase consists of analyzing the output data to display it in the next phase. This phase consists of three stages:  Patient Data file retrieval (XML), reading user’s role and preferences, then Visualization use cases generation, and lastly the image data phase which will be explained in the next chapter. 

@@ -1,6 +1,6 @@
 
 \chapter{Implementation}
-\renewcommand{\thesection}{\arabic{section}}
+
 		
 
 
@@ -14,7 +14,7 @@
 		
     \newpage
     \thispagestyle{plain}
-In this chapter, the process of implementation will be covered, starting by the architecture and the tools to the results and how everything fits together.
+In this chapter, the process of implementation will be covered, starting by the architecture and the tools used, to the results and how everything fits together.
 
 \section{Tools}
 \label{sec:tool}
@@ -23,20 +23,18 @@ In this chapter, the process of implementation will be covered, starting by the 
 Python\cite{WelcomePythonOrg} is a programming language that can be used in many contexts and is suitable for any type of use thanks to specialized libraries. However, it is particularly used as a scripting language to automate simple but tedious tasks. It is also used as a prototype development language when a functional application is needed before optimizing it with a lower level language. It is particularly widespread in the scientific world, and has many libraries optimized for numerical calculations\cite{PythonLangageWikipedia}.
 \paragraph*{Pandas:} 
 
-is a library\cite{PandasPythonData} written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical arrays and time series. Pandas is free software under the BSD license.
-
-
-\begin{wrapfigure}[10]{r}{4cm}
-	\vspace{-10pt}
-	\includegraphics[width=4cm]{images/chapter4/python_pandas.png}
-	\vspace{-10pt}
-	\caption{{\footnotesize Python \& Pandas Logo.}}
-\end{wrapfigure}
+is a library\cite{PandasPythonData} written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical arrays and time series. Pandas is free software under the \gls{bsd}.
 
 
 The main data structures offered by Pandas are series (to store data according to one dimension - size according to an index), DataFrames (to store data according to 2 dimensions - rows and columns), Panels (to represent data according to 3 dimensions, 4D Panels or Data Frames with hierarchical indexes also called Multi Index (to represent data according to more than 3 dimensions - hypercube))\cite{Pandas2020}.
+\begin{figure}[h!]
+  \center
+  \includegraphics[width=0.40\textwidth]{images/chapter4/python_pandas.png}
+  \caption{Python \& Pandas Logo.}
+  \label{fig:python}
+\end{figure}
 
-
+\newpage
 
 \subsection{Talend}
 \label{sec:talend}
@@ -45,7 +43,7 @@ We used  Talend Open Studio to create and develop ETL processes. It is a tool ba
 \renewcommand{\labelitemi}{$\bullet$}
 \item Connect to different data sources for reading and writing:
 \begin{itemize}
-\item Flat files, .xml, .csv, xls, etc.
+\item Flat files, .xml, .\gls{csv}, \gls{xls}, etc.
 \item Relational databases (Postgresql, MsSql, etc) and Nosql.
 \end{itemize}
 \item To manipulate the data, namely:
@@ -63,11 +61,13 @@ These components are then assembled as needed to design ETL processes\cite{mehdi
     \caption{Talend Interface.}
     \label{fig:Talend}
 \end{figure}
+\newpage
+
 \subsection{Visualization Tools}
 
 \subsubsection{Tableau}
 \label{sec:tableau}
-Tableau is an excellent data visualization and business intelligence tool used for reporting and analyzing vast volumes of data. It helps users create different charts, graphs, maps, dashboards, and stories for visualizing and analyzing data, to help in making business decisions. Tableau supports powerful data discovery and exploration that enables users to answer important questions in seconds, it can connect to several data sources that other BI tools do not support. Tableau enables users to create reports by joining and blending different datasets and it supports a centralized location to manage all published data sources within an organization\cite{WhatTableauUltimate}.
+Tableau is an excellent data visualization and business intelligence tool used for reporting and analyzing vast volumes of data. It helps users create different charts, graphs, maps, dashboards, and stories for visualizing and analyzing data, to help in making business decisions. Tableau supports powerful data discovery and exploration that enables users to answer important questions in seconds, it can connect to several data sources that other \gls{bi} tools do not support. Tableau enables users to create reports by joining and blending different datasets and it supports a centralized location to manage all published data sources within an organization\cite{WhatTableauUltimate}.
 \begin{figure}[h!]
     \center
     \includegraphics[width=0.75\textwidth]{images/chapter4/TableauLogo.png}
@@ -83,13 +83,14 @@ Power BI is an interactive data visualization software product developed by Micr
     \caption{Microsoft Power BI Logo.}
     \label{fig:powerBi}
 \end{figure}
+\newpage
 \subsubsection{Tableau Vs. Power BI}
 Microsoft Power BI and Tableau are two of the top business intelligence (BI) and data analytics platforms in the market. As two highly regarded analytics platforms, users often are forced to choose between Power BI and Tableau. There are arguments for and against each tool\cite{robbPowerBIVs2022}.
 \begin{itemize}
     \renewcommand{\labelitemi}{$\bullet$}
     \item Microsoft wins in terms of breadth of service due to its ecosystem of integrated platforms. However, Tableau perhaps comes out ahead when it comes to depth of analysis and the kind of robust, intuitive features that data scientists and analysts need for competitive advantage.
     \item Power BI wins on broad usage by a non-technical audience whereas Tableau has the edge with technical users.
-    \item Power BI is that it supports various data sources but has limited access to other databases and servers compared to Tableau, while Tableau Software has access to numerous data sources and servers such as Excel, Text File, PDF, JSON and others but it does not connect natively to XML files.
+    \item Power BI is that it supports various data sources but has limited access to other databases and servers compared to Tableau, while Tableau Software has access to numerous data sources and servers such as Excel, Text File, PDF, \gls{json} and others but it does not connect natively to XML files.
     \item Both are not free, the difference is only in the prices
 \end{itemize}
 \bigbreak
@@ -99,7 +100,7 @@ For the last two reasons we decided to create our own visualization tool, using 
 Css (Cascading Style Sheets) is a language for specifying how documents are presented to users\cite{WhatCSSLearn}, it is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics\cite{CSS2022}. It has various frameworks comprising several CSS stylesheets ready for use  for standard web design functions.
 %TODO: fix the cite problem key: contributorsGetStartedBootstrap
 
-\paragraph*{Bootstrap:}Twitter introduced the framework in 2011, Bootstrap\cite{} is an open-source framework containing CSS and JavaScript-based templates for interface components. It is known for popularizing the focus on responsive design among web developers. 
+\paragraph*{Bootstrap:}Twitter introduced the framework in 2011, Bootstrap\cite{BootstrapFrontendFramework2022} is an open-source framework containing CSS and JavaScript-based templates for interface components. It is known for popularizing the focus on responsive design among web developers. 
 It promoted the now-ubiquitous concept of mobile-first and provided the right tools for its easy implementation. Bootstrap did so by introducing a grid – partitioning the screen into columns (invisible to the end user's eye).
 \begin{figure}[h!]
     \center
@@ -123,29 +124,127 @@ providing a wide variety of charts. For example, line charts, spline charts, are
     \label{fig:Highcharts}
 \end{figure}
 
+\newpage
 \section{Result}
 To validate the proposed solution, we visualize the data  using various technologies highlighted in previous sections, in this section we will go through the results that were obtained by this investigatory effort.
+
 \subsection{Processed Data Result}
-In the data preparation stage, the data is output from the integration stage using Talend in this format:
+From the output data step in the preparation phase, we extracted this data using Talend open studio:
+
+
+\lstset{language=XML}
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.55\linewidth}
+      \begin{lstlisting}[caption=Patient's Information.]
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <patient>
+      <id>
+        1
+      </id>
+      <patient_first_name>
+        Ramon
+      </patient_first_name>
+      <patient_last_name>
+        Holt
+      </patient_last_name>
+      <date_of_birth>
+        06/07/2001
+      </date_of_birth>
+      <gender>
+        Male
+      </gender>
+      <address>
+        Camdale  Vale, 3758
+      </address>
+  </patient>
+</root>
+\end{lstlisting}
+  \end{subfigure}\hfill%  
+  \begin{subfigure}[b]{0.40\linewidth}
+    \begin{lstlisting}[caption=Prescripted Drugs]
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <drug>
+    <id>
+      1
+    </id>
+    <drug_name>
+      CEPHALEXIN
+      AMOXICILLIN 
+      HYDROCODONE
+      ACETAMINOPHEN
+    </drug_name>
+    <quantity>
+      5
+    </quantity>
+  </drug>
+</root>
+\end{lstlisting}
+\end{subfigure}\hfill%  
+\caption{Patient's information and his Prescripted Drugs.}
+\label{fig:resultone}
+\end{figure}
 
 
 \begin{figure}[h!]
-    \center
-    \includegraphics[width=0.90\textwidth]{images/chapter4/result1.PNG}
-    \caption{Patient Informations and the related drugs.}
-    \label{fig:resultone}
-\end{figure}
-\begin{figure}[h!]
-    \center
-    \includegraphics[width=0.90\textwidth]{images/chapter4/result2.PNG}
-    \caption{Patient's diagnosis and the his Lab tests results.}
-    \label{fig:resulttwo}
+  \centering
+  \begin{subfigure}[b]{0.47\linewidth}
+      \begin{lstlisting}[caption=Lab tests results.]
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <labResults>
+    <id>1</id>
+    <HAEMATOCRIT>
+      33.8
+    </HAEMATOCRIT>
+    <HAEMOGLOBINS>
+      11.1
+    </HAEMOGLOBINS>
+    <ERYTHROCYTE>
+      4.18
+    </ERYTHROCYTE>
+    <LEUCOCYTE>
+      4.6
+    </LEUCOCYTE>
+    ...
+  </labResults>
+</root>
+\end{lstlisting}
+\end{subfigure}\hfill%
+  \begin{subfigure}[b]{0.48\linewidth}
+      \begin{lstlisting}[caption=Diagnosis]
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <diagnosis>
+    <id>
+      1
+    </id>
+    <dr_name>
+      Slater
+    </dr_name>
+    <disease>
+      Drug Reaction
+    </disease>
+    <observations>
+      An adverse drug reaction(ADR)
+      is an injury caused by taking medication. ADRs may occur ...
+    </observations>
+  </diagnosis>
+</root>
+\end{lstlisting}
+\end{subfigure}\hfill%
+\caption{Patient's diagnosis and the his Lab tests results.}
+\label{fig:resulttwo}
 \end{figure}
 
+\newpage
 \subsection{Dashboards}
 \cite{hynekAutomaticEvaluationInformation2015} Defines a dashboard as:
 \begin{displayquote}
-    "A visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance". \end{displayquote}
+  \emph{"A visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance".} \end{displayquote}
 
 HealthViz dashboard application (illustrated in the following pictures), is a web application developed using bootstrap\cite{IntroductionBootstrapV5}  framework and the Highcharts  library in order to display the right insight for each user.\\
 This application represent the image data phase we already mentioned. 
@@ -154,19 +253,49 @@ This application represent the image data phase we already mentioned.
 \begin{itemize}
     \renewcommand{\labelitemi}{$\bullet$}
     \newpage
-    \item \textbf{Administration Dashboard:}
+    \item \textbf{Select User Role Screen:} \\
+    The application first asks the user for his role in order to grant him the right persmissions, the screen in Figure\ref{fig:user} showcases the 3 predefined roles we used. 
+
+    Once the user specifies his role, he will be directed to the next screen where he will be asked more detailed questions in order to define this user's preferences and needs.
+    \begin{figure}[h!]
+      \center
+      \includegraphics[width=1\textwidth]{images/chapter4/application/userRole.PNG}
+      \caption{Select User Role Screen.}
+      \label{fig:user}
+  \end{figure}
+  \newpage
+    \item \textbf{Questionnaire Screen:}\\
+     the questionnaire screen is used to ask the right questions to the user once he has specified his role.
+
      \begin{figure}[h!]
-        \center
-        \includegraphics[width=0.90\textwidth]{images/chapter4/adminDashboard.PNG}
-        \caption{Administration Dashboard illustrates some of Viz results.}
-        \label{fig:admin}
+          \center
+          \includegraphics[width=0.85\textwidth]{images/chapter4/application/needadmin.PNG}
+          \caption{Questionnaire Screen for admin role.}
+      \end{figure}
+      \begin{figure}[h!]
+          \center
+          \includegraphics[width=0.85\textwidth]{images/chapter4/application/needDoc.PNG}
+          \caption{Questionnaire Screen for doctor role.}
+        \end{figure}
+        \begin{figure}[h!]
+          \center
+          \includegraphics[width=0.85\textwidth]{images/chapter4/application/needUser.PNG}
+          \caption{Questionnaire Screen for patient role.}
     \end{figure}
+
     \newpage
-    \item \textbf{Doctor Dashboard:}
+    \item \textbf{Insights Screen:}
+     Once both roles and user needs are defined the application will display the appropriate insights for them.
     \begin{figure}[h!]
         \center
-        \includegraphics[width=0.90\textwidth]{images/chapter4/doctor.PNG}
+        \includegraphics[width=0.90\textwidth]{images/chapter4/application/docDashboard.PNG}
         \caption{Doctor Dashboard.}
         \label{fig:doctor}
     \end{figure}
+    \begin{figure}[h!]
+      \center
+      \includegraphics[width=0.90\textwidth]{images/chapter4/application/admindasboard.PNG}
+      \caption{Admin Dashboard.}
+      \label{fig:admin}
+  \end{figure}
 \end{itemize}

@@ -1,49 +1,50 @@
-\babel@toc {french}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {french}{}\relax 
-\babel@toc {french}{}\relax 
-\babel@toc {french}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
-\contentsline {section}{\numberline {1}Background}{7}{section.1.1}%
-\contentsline {section}{\numberline {2}Problem \& motivation}{7}{section.1.2}%
-\contentsline {section}{\numberline {3}Purpose \& delimitations}{9}{section.1.3}%
-\contentsline {section}{\numberline {4}Document structure}{9}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Health sector \& Data}{11}{chapter.2}%
-\contentsline {section}{\numberline {1}Healthcare Environment}{12}{section.2.1}%
-\contentsline {section}{\numberline {2}Medical records management}{16}{section.2.2}%
-\contentsline {subsection}{\numberline {2.1}Electronic medical record}{16}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2}Electronic health record}{16}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}The Difference Between EMR \& EHR}{17}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.4}Personal health record}{17}{subsection.2.2.4}%
-\contentsline {section}{\numberline {3}Security in medical records management}{18}{section.2.3}%
-\contentsline {section}{\numberline {4}Conclusion}{19}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Information Visualization -infoVis-}{20}{chapter.3}%
-\contentsline {section}{\numberline {1}Definition}{22}{section.3.1}%
-\contentsline {section}{\numberline {2}Visualization pipeline}{22}{section.3.2}%
-\contentsline {section}{\numberline {3}Data Warehouse Systems}{24}{section.3.3}%
-\contentsline {section}{\numberline {4}Data Integration Approaches}{25}{section.3.4}%
-\contentsline {section}{\numberline {5}Conclusion}{26}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Contribution \& Discussion}{27}{chapter.4}%
-\contentsline {section}{\numberline {1}Work Objectives}{28}{section.4.1}%
-\contentsline {section}{\numberline {2}Literature \& Related works review}{28}{section.4.2}%
-\contentsline {section}{\numberline {3}Proposed Solution}{32}{section.4.3}%
-\contentsline {section}{\numberline {4}Why XML?}{32}{section.4.4}%
-\contentsline {section}{\numberline {5}The Proposed System Process}{34}{section.4.5}%
-\contentsline {subsection}{\numberline {5.1}The Data Preparation}{34}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {5.2}Data Rendering}{40}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {5.3}Image Data}{42}{subsection.4.5.3}%
-\contentsline {section}{\numberline {6}Conclusion}{42}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Implementation}{43}{chapter.5}%
-\contentsline {section}{\numberline {1}Tools}{44}{section.5.1}%
-\contentsline {subsection}{\numberline {1.1}Python}{44}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {1.2}Talend}{44}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {1.3}Visualization Tools}{45}{subsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Tableau}{45}{subsubsection.5.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Microsoft Power BI}{46}{subsubsection.5.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3}Tableau Vs. Power BI}{46}{subsubsection.5.1.3.3}%
-\contentsline {subsection}{\numberline {1.4}CSS \& Bootstrap}{47}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {1.5}Javascript \& Highcharts}{48}{subsection.5.1.5}%
-\contentsline {section}{\numberline {2}Result}{48}{section.5.2}%
-\contentsline {subsection}{\numberline {2.1}Processed Data Result}{48}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {2.2}Dashboards}{49}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Conclusion \& Future work}{52}{chapter.6}%
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Glossary}{6}{section*.4}%
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem \& motivation}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Purpose \& delimitations}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Document structure}{10}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Health sector \& Data}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Healthcare Environment}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Medical records management}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Electronic medical record}{17}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Electronic health record}{17}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}The Difference Between EMR \& EHR}{18}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Personal health record}{19}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Security in medical records management}{20}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Conclusion}{21}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Information Visualization (infoVis)}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definition}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Visualization pipeline}{25}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Data Warehouse Systems}{27}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Data Integration Approaches}{28}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Conclusion}{30}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Contribution \& Discussion}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Work Objectives}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Literature \& Related works review}{32}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Proposed Solution}{36}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Why XML?}{36}{section.4.4}%
+\contentsline {section}{\numberline {4.5}The Proposed System Process}{38}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}The Data Preparation}{38}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Data Rendering}{44}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Image Data}{46}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Conclusion}{46}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Implementation}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Tools}{48}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Python}{48}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Talend}{49}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Visualization Tools}{50}{subsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.3.1}Tableau}{50}{subsubsection.5.1.3.1}%
+\contentsline {subsubsection}{\numberline {5.1.3.2}Microsoft Power BI}{50}{subsubsection.5.1.3.2}%
+\contentsline {subsubsection}{\numberline {5.1.3.3}Tableau Vs. Power BI}{51}{subsubsection.5.1.3.3}%
+\contentsline {subsection}{\numberline {5.1.4}CSS \& Bootstrap}{52}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Javascript \& Highcharts}{53}{subsection.5.1.5}%
+\contentsline {section}{\numberline {5.2}Result}{54}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Processed Data Result}{54}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Dashboards}{55}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Conclusion \& Future work}{60}{chapter.6}%

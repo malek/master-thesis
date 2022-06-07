@@ -30,10 +30,12 @@ Warning--to sort, need author or key in WhatTableauUltimate
 Warning--to sort, need author or key in DataVisualisationMicrosoft
 Warning--to sort, need author or key in WhatCSSLearn
 Warning--to sort, need author or key in CSS2022
+Warning--to sort, need author or key in BootstrapFrontendFramework2022
 Warning--to sort, need author or key in JavaScriptCom
 Warning--to sort, need author or key in InteractiveJavascriptCharts
 Warning--to sort, need author or key in IntroductionBootstrapV5
 Warning--empty author in Pandas2020
+Warning--empty author in BootstrapFrontendFramework2022
 Warning--empty author in CSS2022
 Warning--empty author in DataAnalysis2022
 Warning--empty author in Kaggle2022
@@ -48,45 +50,45 @@ Warning--empty journal in mehdiPfe
 Warning--empty publisher in teleaDataVisualizationPrinciples2008
 Warning--empty journal in wahDevelopmentDataWarehouse2009
 Warning--can't use both author and editor fields in Zillner2016
-You've used 66 entries,
+You've used 67 entries,
             2118 wiz_defined-function locations,
-            861 strings with 15838 characters,
-and the built_in function-call counts, 17154 in all, are:
-= -- 1653
-> -- 637
+            864 strings with 15929 characters,
+and the built_in function-call counts, 17320 in all, are:
+= -- 1669
+> -- 638
 < -- 8
-+ -- 280
++ -- 281
 - -- 204
-* -- 1104
-:= -- 2617
-add.period$ -- 169
-call.type$ -- 66
-change.case$ -- 293
+* -- 1117
+:= -- 2639
+add.period$ -- 171
+call.type$ -- 67
+change.case$ -- 296
 chr.to.int$ -- 0
-cite$ -- 109
-duplicate$ -- 683
-empty$ -- 1587
+cite$ -- 112
+duplicate$ -- 693
+empty$ -- 1605
 format.name$ -- 204
-if$ -- 3698
+if$ -- 3734
 int.to.chr$ -- 0
-int.to.str$ -- 66
-missing$ -- 49
-newline$ -- 303
+int.to.str$ -- 67
+missing$ -- 50
+newline$ -- 307
 num.names$ -- 76
-pop$ -- 433
+pop$ -- 437
 preamble$ -- 1
-purify$ -- 234
+purify$ -- 236
 quote$ -- 0
-skip$ -- 551
+skip$ -- 558
 stack$ -- 0
-substring$ -- 913
-swap$ -- 114
+substring$ -- 918
+swap$ -- 115
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 248
-warning$ -- 43
+type$ -- 252
+warning$ -- 45
 while$ -- 130
-width$ -- 68
-write$ -- 605
-(There were 43 warnings)
+width$ -- 69
+write$ -- 613
+(There were 45 warnings)
