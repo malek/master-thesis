@@ -76,6 +76,15 @@ pdfkeywords={Visualization; Medical data; Graphical Representation; Modeling; XM
 }
 
 
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={160mm,237mm},
+ left=25mm,
+ top=30mm,
+ }
+
+
 %		Header		%		
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -95,6 +104,8 @@ pdfkeywords={Visualization; Medical data; Graphical Representation; Modeling; XM
 \newcommand{\comment}[1]{}
 
 \usepackage{csquotes} % for the quotes
+\renewcommand{\baselinestretch}{1.15}
+
 \input{parts/glossary.tex}
 \begin{document}
 \includepdf[pages=-]{parts/pagedegarde.pdf}

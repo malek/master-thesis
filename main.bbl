@@ -7,7 +7,7 @@
 \bibitem{DataAnalysisProcess}
 Data {{Analysis}} - {{Process}}.
 \newblock
-  https://www.tutorialspoint.com/excel\_data\_analysis/data\_analysis\_process.htm.
+  \url{https://www.tutorialspoint.com/excel\_data\_analysis/data\_analysis\_process.htm}.
 
 \bibitem{DataAnalysisVisualization}
 Data {{Analysis}}, {{Visualization}} and {{Interpretation}} | {{MEALD Pro
@@ -20,7 +20,7 @@ Data {{Visualisation}} | {{Microsoft Power BI}}.
 \newblock https://powerbi.microsoft.com/en-au/.
 
 \bibitem{ElectronicHealthRecords}
-Electronic {{Health Records}} | {{CMS}}.
+Electronic health records -cms.
 \newblock https://www.cms.gov/Medicare/E-Health/EHealthRecords.
 
 \bibitem{ElectronicMedicalRecord}
@@ -33,13 +33,13 @@ Health {{Data Management}}: {{Benefits}}, {{Challenges}} and {{Storage}}.
 \bibitem{HealthcareDataVolume}
 Healthcare data volume globally 2020 forecast.
 \newblock
-  https://www.statista.com/statistics/1037970/global-healthcare-data-volume/.
+  \url{https://www.statista.com/statistics/1037970/global-healthcare-data-volume/}.
 
 \bibitem{InteractiveJavascriptCharts}
 Interactive javascript charts library.
 
 \bibitem{IntroductionBootstrapV5}
-Introduction {$\cdot$} {{Bootstrap}} v5.0.
+Introduction{{Bootstrap}} v5.0.
 \newblock https://getbootstrap.com/docs/5.0/getting-started/introduction/.
 
 \bibitem{JavaScriptCom}

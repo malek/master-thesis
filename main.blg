@@ -52,7 +52,7 @@ Warning--empty journal in wahDevelopmentDataWarehouse2009
 Warning--can't use both author and editor fields in Zillner2016
 You've used 67 entries,
             2118 wiz_defined-function locations,
-            864 strings with 15929 characters,
+            864 strings with 15921 characters,
 and the built_in function-call counts, 17320 in all, are:
 = -- 1669
 > -- 638
